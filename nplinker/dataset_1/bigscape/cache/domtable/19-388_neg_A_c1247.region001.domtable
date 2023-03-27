@@ -1,0 +1,27 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                     accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                           -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SQS_PSY              PF00494.21   263 19-388_neg_A_c1247.region001_ORF3:gid::pid::loc:998:1808:strand:+ -            269     4e-19   69.2   0.0   1   1   4.6e-21   8.9e-17   61.5   0.0     2   176    12   202    11   208 0.80 Squalene/phytoene synthase
+Methyltransf_21      PF05050.14   173 19-388_neg_A_c1247.region001_ORF5:gid::pid::loc:2553:3360:strand:+ -            268   2.3e-15   57.2   0.0   1   1   1.7e-19   3.2e-15   56.7   0.0     1   148    96   237    89   255 0.83 Methyltransferase FkbM domain
+Cytochrom_B_C        PF00032.19   103 19-388_neg_A_c1247.region001_ORF7:gid::pid::loc:4100:4583:strand:- -            160   3.6e-17   62.6   0.5   1   1     3e-21   5.7e-17   61.9   0.5     1    84    65   148    65   158 0.92 Cytochrome b(C-terminal)/b6/petD
+Cytochrome_B         PF00033.21   189 19-388_neg_A_c1247.region001_ORF8:gid::pid::loc:4634:4907:strand:- -             90   1.7e-35  122.6   2.6   1   1     2e-39   1.9e-35  122.5   2.6   106   189     1    85     1    85 0.98 Cytochrome b/b6/petB
+Cytochrom_B_N_2      PF13631.8    169 19-388_neg_A_c1247.region001_ORF8:gid::pid::loc:4634:4907:strand:- -             90   2.5e-23   83.0   1.2   1   1   2.7e-27   2.6e-23   83.0   1.2    37   122     2    87     1    90 0.96 Cytochrome b(N-terminal)/b6/petB
+Resolvase            PF00239.23   146 19-388_neg_A_c1247.region001_ORF9:gid::pid::loc:5585:6065:strand:+ -            159   2.7e-12   47.1   0.0   1   1   4.1e-16   3.9e-12   46.5   0.0     2   115    53   156    52   159 0.90 Resolvase, N terminal domain
+MerR_1               PF13411.8     69 19-388_neg_A_c1247.region001_ORF9:gid::pid::loc:5585:6065:strand:+ -            159   3.6e-05   23.9   0.3   1   1     1e-08    0.0001   22.4   0.1     5    40     5    40     2    45 0.91 MerR HTH family regulatory protein
+OrfB_Zn_ribbon       PF07282.13    69 19-388_neg_A_c1247.region001_ORF11:gid::pid::loc:6165:7230:strand:+ -            354   8.2e-08   32.2   0.0   1   1   9.3e-12   1.8e-07   31.1   0.0     1    68   270   337   270   338 0.89 Putative transposase DNA-binding domain
+CP_ATPgrasp_2        PF14403.8    375 19-388_neg_A_c1247.region001_ORF12:gid::pid::loc:7229:8708:strand:+ -            492  8.8e-167  554.8   0.0   1   1  1.1e-170    1e-166  554.6   0.0     1   375    92   468    92   468 0.99 Circularly permuted ATP-grasp type 2
+CP_ATPgrasp_1        PF04174.15   332 19-388_neg_A_c1247.region001_ORF12:gid::pid::loc:7229:8708:strand:+ -            492  1.3e-147  491.2   0.0   1   1  1.8e-151  1.7e-147  490.8   0.0     1   332    92   423    92   423 1.00 A circularly permuted ATPgrasp
+Alpha-E              PF04168.14   292 19-388_neg_A_c1247.region001_ORF13:gid::pid::loc:8822:9824:strand:+ -            333  4.8e-103  345.0   1.0   1   1  2.8e-107  5.4e-103  344.8   1.0     1   292     1   310     1   310 0.95 A predicted alpha-helical domain with a conserved ER motif.
+Bact_transglu_N      PF08379.12    80 19-388_neg_A_c1247.region001_ORF14:gid::pid::loc:9823:10690:strand:+ -            288   4.8e-23   81.9   0.0   1   1   1.7e-26   1.7e-22   80.2   0.0     1    80     3    82     3    82 0.99 Bacterial transglutaminase-like N-terminal region
+Transglut_core       PF01841.21   112 19-388_neg_A_c1247.region001_ORF14:gid::pid::loc:9823:10690:strand:+ -            288   4.2e-17   62.7   0.0   1   1   5.8e-21   5.6e-17   62.3   0.0    25   112   153   235   128   235 0.79 Transglutaminase-like superfamily
+DUF29                PF01724.18   138 19-388_neg_A_c1247.region001_ORF16:gid::pid::loc:11078:11516:strand:+ -            145   9.8e-41  139.3   6.6   1   1   5.8e-45   1.1e-40  139.1   6.6     2   138     6   140     5   140 0.97 Domain of unknown function DUF29
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-388_neg_A_c1247.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-388_neg_A_c1247.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-388_neg_A_c1247.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:49:15 2022
+# [ok]

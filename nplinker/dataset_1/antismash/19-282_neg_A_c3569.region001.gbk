@@ -1,0 +1,285 @@
+LOCUS       c_000000003569          1275 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000003569.
+ACCESSION   c_000000003569
+VERSION     c_000000003569
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 16:49:41
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1275
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..1275
+                     /aStool="rule-based-clusters"
+                     /category="PKS"
+                     /contig_edge="True"
+                     /core_location="[1:1273](+)"
+                     /cutoff="20000"
+                     /detection_rule="cds(PKS_AT and (PKS_KS or ene_KS or mod_KS
+                     or hyb_KS or itr_KS or tra_KS))"
+                     /neighbourhood="20000"
+                     /product="T1PKS"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      2..1273
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="cds(PKS_AT and (PKS_KS or ene_KS or mod_KS
+                     or hyb_KS or itr_KS or tra_KS))"
+                     /neighbourhood="20000"
+                     /product="T1PKS"
+                     /protocluster_number="1"
+     cand_cluster    1..1275
+                     /SMILES=""
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="cds(PKS_AT and (PKS_KS or ene_KS or
+                     mod_KS or hyb_KS or itr_KS or tra_KS))"
+                     /kind="single"
+                     /product="T1PKS"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1275
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="T1PKS"
+                     /region_number="1"
+                     /rules="cds(PKS_AT and (PKS_KS or ene_KS or mod_KS or
+                     hyb_KS or itr_KS or tra_KS))"
+                     /tool="antismash"
+     CDS_motif       2..40
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0001"
+                     /evalue="1.20E-05"
+                     /label="PKSI-KS_m4"
+                     /locus_tag="ctg299_1"
+                     /protein_end="13"
+                     /protein_start="0"
+                     /score="17.9"
+                     /tool="antismash"
+                     /translation="FDASANGYVRGEG"
+     PFAM_domain     2..76
+                     /aSDomain="ketoacyl-synt"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00109.28"
+                     /description="Beta-ketoacyl synthase, N-terminal domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg299_1_0001"
+                     /evalue="2.50E-05"
+                     /label="ctg299_1"
+                     /locus_tag="ctg299_1"
+                     /protein_end="25"
+                     /protein_start="0"
+                     /score="24.1"
+                     /tool="antismash"
+                     /translation="FDASANGYVRGEGCGVLILKTLSEA"
+     aSDomain        2..598
+                     /ASF="found active site histidines: True"
+                     /aSDomain="PKS_KS"
+                     /aSTool="nrps_pks_domains"
+                     /database="nrpspksdomains.hmm"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksdomains_ctg299_1_PKS_KS.1"
+                     /domain_subtype="Hybrid-KS"
+                     /evalue="3.00E-88"
+                     /label="ctg299_1_PKS_KS.1"
+                     /locus_tag="ctg299_1"
+                     /protein_end="199"
+                     /protein_start="0"
+                     /score="288.3"
+                     /tool="antismash"
+                     /translation="FDASANGYVRGEGCGVLILKTLSEAQKNGDHILALLRGSAVNHNG
+                     AAAGLTVPSGPAQQELLRQALADARIVPEDVSYIEAHGTGTSLGDPIELNAIASVYGKR
+                     SDPLYVASVKTNIGHLEAAAGMAGIIKTILILQQGEIPSHLHFQSPNPLINWEDHPIKI
+                     PTQNIPWPNNNKVPIAGVSSFGFSGTNAHVIVQQAP"
+     CDS             2..1273
+                     /NRPS_PKS="Domain: PKS_KS(Hybrid-KS) (0-199). E-value:
+                     3e-88. Score: 288.3. Matches aSDomain:
+                     nrpspksdomains_ctg299_1_PKS_KS.1"
+                     /NRPS_PKS="type: PKS/NRPS-like protein"
+                     /gene_functions="biosynthetic (rule-based-clusters) T1PKS:
+                     PKS_AT"
+                     /gene_functions="biosynthetic (rule-based-clusters) T1PKS:
+                     hyb_KS"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1022:Beta-ketoacyl synthase (Score: 153.4; E-value:
+                     1.6e-46)"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg299_1"
+                     /sec_met_domain="PKS_AT (E-value: 6.7e-51, bitscore: 159.5,
+                     seeds: 1682, tool: rule-based-clusters)"
+                     /sec_met_domain="hyb_KS (E-value: 3.9e-102, bitscore:
+                     328.3, seeds: 33, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="FDASANGYVRGEGCGVLILKTLSEAQKNGDHILALLRGSAVNHNG
+                     AAAGLTVPSGPAQQELLRQALADARIVPEDVSYIEAHGTGTSLGDPIELNAIASVYGKR
+                     SDPLYVASVKTNIGHLEAAAGMAGIIKTILILQQGEIPSHLHFQSPNPLINWEDHPIKI
+                     PTQNIPWPNNNKVPIAGVSSFGFSGTNAHVIVQQAPVSKISEIQQQIPSHLLTLSAHNK
+                     TALKELATRFHTLLESHPEIGDICYSAAVGRIDLPERLAIVGDTCPELQQRLTAFAEEN
+                     PLDDLTFYQRFTSEKSPKIVFLFTGQGACYPGMGHQLYQTQPTFRQYIDQCAEILAKYL
+                     DHPLTEILFGEQTDLLNQTAYAQPAIFALEYSLTMLWKSWGITPSLLIGHSVGEYVAAC
+                     IAGVFSLEAGLALVVKRGQLMQTTT"
+     PFAM_domain     98..442
+                     /aSDomain="Ketoacyl-synt_C"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF02801.24"
+                     /description="Beta-ketoacyl synthase, C-terminal domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg299_1_0002"
+                     /evalue="8.70E-43"
+                     /label="ctg299_1"
+                     /locus_tag="ctg299_1"
+                     /protein_end="147"
+                     /protein_start="32"
+                     /score="145.2"
+                     /tool="antismash"
+                     /translation="LALLRGSAVNHNGAAAGLTVPSGPAQQELLRQALADARIVPEDVS
+                     YIEAHGTGTSLGDPIELNAIASVYGKRSDPLYVASVKTNIGHLEAAAGMAGIIKTILIL
+                     QQGEIPSHLHF"
+     CDS_motif       119..148
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0002"
+                     /evalue="9.90E+01"
+                     /label="PKSI-KS_m6"
+                     /locus_tag="ctg299_1"
+                     /protein_end="49"
+                     /protein_start="39"
+                     /score="-2.7"
+                     /tool="antismash"
+                     /translation="AVNHNGAAAG"
+     CDS_motif       233..280
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0003"
+                     /evalue="2.10E-05"
+                     /label="PKSI-KS_m5"
+                     /locus_tag="ctg299_1"
+                     /protein_end="93"
+                     /protein_start="77"
+                     /score="16.0"
+                     /tool="antismash"
+                     /translation="YIEAHGTGTSLGDPIE"
+     CDS_motif       335..376
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0004"
+                     /evalue="1.10E-04"
+                     /label="PKSI-KS_m6"
+                     /locus_tag="ctg299_1"
+                     /protein_end="125"
+                     /protein_start="111"
+                     /score="14.2"
+                     /tool="antismash"
+                     /translation="SVKTNIGHLEAAAG"
+     PFAM_domain     449..730
+                     /aSDomain="KAsynt_C_assoc"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF16197.7"
+                     /description="Ketoacyl-synthetase C-terminal extension"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg299_1_0003"
+                     /evalue="3.00E-19"
+                     /label="ctg299_1"
+                     /locus_tag="ctg299_1"
+                     /protein_end="243"
+                     /protein_start="149"
+                     /score="69.6"
+                     /tool="antismash"
+                     /translation="PNPLINWEDHPIKIPTQNIPWPNNNKVPIAGVSSFGFSGTNAHVI
+                     VQQAPVSKISEIQQQIPSHLLTLSAHNKTALKELATRFHTLLESHPEIG"
+     PFAM_domain     902..1267
+                     /aSDomain="Acyl_transf_1"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00698.23"
+                     /description="Acyl transferase domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg299_1_0004"
+                     /evalue="1.80E-30"
+                     /label="ctg299_1"
+                     /locus_tag="ctg299_1"
+                     /protein_end="422"
+                     /protein_start="300"
+                     /score="106.7"
+                     /tool="antismash"
+                     /translation="VFLFTGQGACYPGMGHQLYQTQPTFRQYIDQCAEILAKYLDHPLT
+                     EILFGEQTDLLNQTAYAQPAIFALEYSLTMLWKSWGITPSLLIGHSVGEYVAACIAGVF
+                     SLEAGLALVVKRGQLMQT"
+     CDS_motif       911..958
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0005"
+                     /evalue="2.10E-06"
+                     /label="PKSI-AT-M_m1"
+                     /locus_tag="ctg299_1"
+                     /protein_end="319"
+                     /protein_start="303"
+                     /score="20.1"
+                     /tool="antismash"
+                     /translation="FTGQGACYPGMGHQLY"
+     CDS_motif       1082..1138
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0006"
+                     /evalue="2.20E-04"
+                     /label="PKSI-AT-mM_m2"
+                     /locus_tag="ctg299_1"
+                     /protein_end="379"
+                     /protein_start="360"
+                     /score="14.4"
+                     /tool="antismash"
+                     /translation="YAQPAIFALEYSLTMLWKS"
+     CDS_motif       1142..1264
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg299_1_0007"
+                     /evalue="5.00E-28"
+                     /label="PKSI-AT-M_m3"
+                     /locus_tag="ctg299_1"
+                     /protein_end="421"
+                     /protein_start="380"
+                     /score="89.6"
+                     /tool="antismash"
+                     /translation="GITPSLLIGHSVGEYVAACIAGVFSLEAGLALVVKRGQLMQ"
+ORIGIN
+        1 cttcgatgcc tctgctaacg gatatgtgcg aggggaaggc tgtggggttt taatcttaaa
+       61 aactttatca gaagcccaga aaaacgggga tcacattctt gccctgttgc gaggttcggc
+      121 ggtgaatcat aatggggctg ctgccggttt aaccgtaccc agtggacccg cccagcaaga
+      181 attgctccgt caagctctag ctgatgccag aatagtccct gaagatgtca gctacataga
+      241 agctcatggc acaggcactt ctttaggaga tcccatcgaa ttgaatgcca ttgcctcagt
+      301 ttatggaaag cgctccgacc ccctttatgt cgcctcagtc aaaaccaata tcggtcatct
+      361 tgaagccgca gctggcatgg ctggaataat caaaacaatt ctgattcttc aacagggtga
+      421 aatcccctcc catcttcact tccaaagccc taatcctctg attaattggg aagatcatcc
+      481 tattaaaatt cctactcaaa atataccttg gccgaataac aataaagtcc ctatagctgg
+      541 ggtaagttct tttggttttt caggcacaaa tgcccatgtc attgttcaac aggcacccgt
+      601 cagcaaaatc tcagaaattc aacaacaaat tcccagtcat ctcttaaccc tttcagccca
+      661 caacaaaacc gctttaaaag aattagccac acgcttccat accctcctag aatctcatcc
+      721 tgaaattgga gatatttgtt atagtgcagc tgtcggaagg atagatttac ctgaacgttt
+      781 agccattgtt ggcgatactt gtccagaatt acaacaaaga ttaaccgctt ttgctgaaga
+      841 aaacccgctt gatgatttga ctttttatca acgttttaca tcggaaaaat cccctaaaat
+      901 tgtttttctt tttacagggc aaggggcttg ttatcctggc atgggacatc aactctatca
+      961 aactcagccg acatttcgtc aatatattga tcaatgtgcc gaaatattag cgaagtattt
+     1021 agaccatcct ttaactgaaa tattatttgg tgaacagacc gatttactca atcaaactgc
+     1081 ttacgctcaa ccggctatat tcgccctaga atattcccta acaatgctat ggaaatcttg
+     1141 gggaattacc cccagtttac tgattggcca tagtgtggga gaatatgtag cagcttgtat
+     1201 cgcaggagta tttagcttag aagctggact cgccttagtt gtcaaacggg ggcaattaat
+     1261 gcaaaccacg acctc
+//

@@ -1,0 +1,17 @@
+#                                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                               accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                     -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+MelC1                PF06236.13   115 BGC0000909.1_ORF2:gid:melC1_:pid:BAB69181.1:loc:1060:1447:strand:+ -            128   7.4e-29  100.3   0.9   1   1   3.9e-33   7.4e-29  100.3   0.9    26   112    10    95     3   100 0.86 Tyrosinase co-factor MelC1
+Tyrosinase           PF00264.22   222 BGC0000909.1_ORF3:gid:melC2_:pid:BAB69182.1:loc:1433:2297:strand:+ -            287   1.7e-42  146.3   1.4   1   1   1.3e-46   2.4e-42  145.8   1.4     2   222    29   238    28   238 0.75 Common central domain of tyrosinase
+Dynamin_N            PF00350.25   168 BGC0000909.1_ORF4:gid::pid:BAB69183.1:loc:2849:4454:strand:+ -            534   5.1e-09   36.5   0.0   1   1   6.9e-13   1.3e-08   35.2   0.0     3   143    65   196    62   219 0.85 Dynamin family
+MMR_HSR1             PF01926.25   114 BGC0000909.1_ORF5:gid::pid:BAB69184.1:loc:4756:6625:strand:+ -            622   1.7e-06   28.2   0.0   1   1   3.3e-10   3.2e-06   27.3   0.0     2    93   122   237   121   260 0.62 50S ribosome-binding GTPase
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0000909.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0000909.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0000909.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:49:21 2022
+# [ok]

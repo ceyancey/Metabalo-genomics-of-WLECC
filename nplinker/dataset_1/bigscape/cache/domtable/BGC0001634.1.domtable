@@ -1,0 +1,19 @@
+#                                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ABC_membrane         PF00664.25   274 BGC0001634.1_ORF1:gid::pid:WP_031052719.1:loc:0:2001:strand:- -            666   2.2e-37  129.3   1.3   1   1   2.9e-41   2.8e-37  129.0   1.3     4   273   105   369   102   370 0.97 ABC transporter transmembrane region
+ABC_tran             PF00005.29   137 BGC0001634.1_ORF1:gid::pid:WP_031052719.1:loc:0:2001:strand:- -            666     9e-30  104.1   0.0   1   1   1.5e-33   1.4e-29  103.4   0.0     2   137   442   590   441   590 0.87 ABC transporter
+PqqD                 PF05402.14    67 BGC0001634.1_ORF3:gid::pid:WP_031052721.1:loc:2421:2673:strand:- -             83     3e-11   43.5   0.5   1   1   1.8e-15   3.4e-11   43.4   0.5     3    67    17    81    15    81 0.95 Coenzyme PQQ synthesis protein D (PqqD)
+Asn_synthase         PF00733.23   355 BGC0001634.1_ORF4:gid::pid:WP_050495135.1:loc:2669:4790:strand:- -            706   1.8e-30  106.9   1.0   1   2   1.5e-12   2.9e-08   33.8   0.3     2    75   238   311   237   329 0.91 Asparagine synthase
+Asn_synthase         PF00733.23   355 BGC0001634.1_ORF4:gid::pid:WP_050495135.1:loc:2669:4790:strand:- -            706   1.8e-30  106.9   1.0   2   2   5.2e-24   9.9e-20   71.6   0.0   109   334   406   660   382   679 0.74 Asparagine synthase
+DUF5972              PF19397.1     28 BGC0001634.1_ORF5:gid::pid:WP_018511015.1:loc:4840:4963:strand:- -             40   3.9e-11   42.4   1.6   1   1   2.3e-15   4.5e-11   42.2   1.6     1    28     5    33     5    33 0.98 Family of unknown function (DUF5972)
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0001634.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0001634.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0001634.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:50:47 2022
+# [ok]

@@ -1,0 +1,26 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                        accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                              -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RAMPs                PF03787.17   213 19-41.2_neg_A_c238.region001_ORF1:gid::pid::loc:148:1027:strand:- -            292   7.1e-18   65.5   0.0   1   1   4.8e-22   9.3e-18   65.2   0.0     2   210     9   280     8   282 0.91 RAMP superfamily
+DUF3288              PF11691.10    89 19-41.2_neg_A_c238.region001_ORF3:gid::pid::loc:2229:2598:strand:+ -            122   1.6e-37  127.5   2.9   1   1     1e-41   1.9e-37  127.2   2.9     1    89    33   121    33   121 0.99 Protein of unknown function (DUF3288)
+Glycos_transf_1      PF00534.22   172 19-41.2_neg_A_c238.region001_ORF5:gid::pid::loc:4247:5243:strand:- -            331   5.3e-08   32.7   0.0   1   1   4.3e-12   8.2e-08   32.1   0.0    50   146   146   253   136   271 0.77 Glycosyl transferases group 1
+HigB_toxin           PF09907.11    74 19-41.2_neg_A_c238.region001_ORF6:gid::pid::loc:5681:5990:strand:+ -            102   3.6e-31  107.3   1.8   1   1   2.5e-35   4.7e-31  106.9   1.8     2    73    20    90    19    91 0.97 HigB_toxin, RelE-like toxic component of a toxin-antitoxin system
+SQHop_cyclase_C      PF13243.8    319 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635  1.3e-140  468.0  13.2   1   1  1.8e-138  6.7e-135  449.3   7.6     1   318   311   632   311   633 0.98 Squalene-hopene cyclase C-terminal domain
+SQHop_cyclase_N      PF13249.8    291 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635    3e-128  427.1   0.7   1   1  3.9e-121  1.5e-117  392.0   0.0     1   290    18   302    18   303 0.98 Squalene-hopene cyclase N-terminal domain
+Prenyltrans          PF00432.23    44 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635   1.6e-21   75.8  19.4   1   4    0.0016       6.2    6.7   0.1    11    43    72   104    65   105 0.68 Prenyltransferase and squalene oxidase repeat
+Prenyltrans          PF00432.23    44 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635   1.6e-21   75.8  19.4   2   4   6.8e-11   2.6e-07   30.3   0.1     2    41   470   508   469   511 0.89 Prenyltransferase and squalene oxidase repeat
+Prenyltrans          PF00432.23    44 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635   1.6e-21   75.8  19.4   3   4   3.4e-12   1.3e-08   34.5   0.6     4    40   520   566   518   570 0.93 Prenyltransferase and squalene oxidase repeat
+Prenyltrans          PF00432.23    44 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635   1.6e-21   75.8  19.4   4   4     0.002       7.7    6.4   0.0     2    24   580   602   579   628 0.87 Prenyltransferase and squalene oxidase repeat
+TED_complement       PF07678.16   311 19-41.2_neg_A_c238.region001_ORF8:gid::pid::loc:6671:8579:strand:- -            635   3.6e-10   39.4   2.3   1   1   1.6e-08     6e-05   22.3   0.0   113   192   516   594   503   602 0.87 A-macroglobulin TED domain
+EF_TS                PF00889.21   208 19-41.2_neg_A_c238.region001_ORF9:gid::pid::loc:8687:9443:strand:- -            251   1.8e-32  112.7  10.5   1   1   5.4e-36     1e-31  110.3   8.9    49   208    21   199     1   199 0.80 Elongation factor TS
+Ribosomal_S2         PF00318.22   215 19-41.2_neg_A_c238.region001_ORF10:gid::pid::loc:9559:10357:strand:- -            265   3.1e-93  311.1   0.0   1   1   1.9e-97   3.6e-93  310.8   0.0     1   215     9   224     9   224 1.00 Ribosomal protein S2
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-41.2_neg_A_c238.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-41.2_neg_A_c238.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-41.2_neg_A_c238.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:40:40 2022
+# [ok]

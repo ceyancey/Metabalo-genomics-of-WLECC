@@ -1,0 +1,17 @@
+#                                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+p450                 PF00067.24   463 BGC0001969.1_ORF1:gid:aspA:pid:AZQ56742.1:loc:0:1658:strand:- -            493   1.1e-66  225.5   0.1   1   1   7.9e-71   1.5e-66  225.1   0.1    20   447    55   468    38   482 0.84 Cytochrome P450
+p450                 PF00067.24   463 BGC0001969.1_ORF2:gid:aspB:pid:AZQ56743.1:loc:2184:3989:strand:- -            498     4e-46  157.8   0.0   1   1   1.3e-49   2.5e-45  155.2   0.0    17   436    58   449    44   469 0.81 Cytochrome P450
+polyprenyl_synt      PF00348.19   256 BGC0001969.1_ORF3:gid:aspC:pid:AZQ56744.1:loc:5042:7810:strand:+ -            754   4.3e-54  183.4   0.2   1   1   1.5e-57   1.4e-53  181.7   0.0     3   243   459   689   457   701 0.95 Polyprenyl synthetase
+Terpene_syn_C_2      PF19086.2    199 BGC0001969.1_ORF3:gid:aspC:pid:AZQ56744.1:loc:5042:7810:strand:+ -            754     9e-26   91.0   0.1   1   1   3.1e-24   2.9e-20   73.0   0.1     4   197   143   334   140   336 0.83 Terpene synthase family 2, C-terminal metal binding
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0001969.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0001969.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0001969.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 21:00:28 2022
+# [ok]

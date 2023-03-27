@@ -1,0 +1,18 @@
+#                                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                      -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ABC_membrane         PF00664.25   274 BGC0001552.1_ORF1:gid::pid:BAC73398.1:loc:0:1842:strand:- -            613   9.5e-36  123.9   0.1   1   1   1.3e-39   1.2e-35  123.6   0.1     1   273    32   299    32   300 0.98 ABC transporter transmembrane region
+ABC_tran             PF00005.29   137 BGC0001552.1_ORF1:gid::pid:BAC73398.1:loc:0:1842:strand:- -            613   2.3e-27   96.3   0.0   1   1   5.4e-31   5.2e-27   95.1   0.0     1   137   372   521   372   521 0.87 ABC transporter
+Transglut_core3      PF13471.8    117 BGC0001552.1_ORF2:gid::pid:BAC73399.1:loc:1853:2288:strand:- -            144   1.8e-26   92.4   2.0   1   1   1.2e-30   2.2e-26   92.1   2.0     3   116    23   134    21   135 0.94 Transglutaminase-like superfamily
+PqqD                 PF05402.14    67 BGC0001552.1_ORF3:gid::pid:BAC73400.1:loc:2284:2572:strand:- -             95   2.5e-14   53.4   0.3   1   1   1.8e-18   3.4e-14   53.0   0.3     2    66    29    93    28    94 0.95 Coenzyme PQQ synthesis protein D (PqqD)
+Asn_synthase         PF00733.23   355 BGC0001552.1_ORF4:gid:asnH2:pid:BAC73401.1:loc:2568:4341:strand:- -            590     2e-48  166.0   0.2   1   1   1.3e-52   2.5e-48  165.7   0.2     2   355   192   576   191   576 0.87 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0001552.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0001552.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0001552.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:54:10 2022
+# [ok]

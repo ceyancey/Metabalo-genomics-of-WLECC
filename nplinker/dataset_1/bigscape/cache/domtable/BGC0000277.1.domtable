@@ -1,0 +1,26 @@
+#                                                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                 accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                       -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+HxlR                 PF01638.19    91 BGC0000277.1_ORF1:gid::pid:AAF00212.1:loc:237:684:strand:+ -            148   1.1e-23   82.9   0.0   1   1   7.9e-28   1.5e-23   82.5   0.0     2    85    36   119    35   124 0.96 HxlR-like helix-turn-helix
+DUF1205              PF06722.14    95 BGC0000277.1_ORF3:gid:urdGT1a:pid:AAF00214.1:loc:3331:4612:strand:+ -            426   2.2e-17   63.0   0.0   1   1   2.1e-21   3.9e-17   62.2   0.0     2    95   212   307   211   307 0.96 Protein of unknown function (DUF1205)
+DUF1205              PF06722.14    95 BGC0000277.1_ORF4:gid:urdGT1b:pid:AAF00215.1:loc:4628:5795:strand:+ -            388   6.2e-14   52.0   0.0   1   1   1.4e-17   1.4e-13   50.8   0.0     2    95   177   272   176   272 0.93 Protein of unknown function (DUF1205)
+Glyco_tran_28_C      PF04101.18   167 BGC0000277.1_ORF4:gid:urdGT1b:pid:AAF00215.1:loc:4628:5795:strand:+ -            388   4.4e-05   23.6   0.0   1   1   7.1e-09   6.8e-05   23.0   0.0    76   151   289   362   277   374 0.89 Glycosyltransferase family 28 C-terminal domain
+DEDD_Tnp_IS110       PF01548.19   155 BGC0000277.1_ORF5:gid:urd-Int:pid:AAF00216.1:loc:5845:7048:strand:- -            400   8.1e-43  146.0   0.1   1   1   1.9e-46   1.8e-42  144.9   0.1     1   155    10   164    10   164 0.99 Transposase
+Transposase_20       PF02371.18    87 BGC0000277.1_ORF5:gid:urd-Int:pid:AAF00216.1:loc:5845:7048:strand:- -            400   2.7e-20   72.5   0.1   1   1   1.2e-23   1.1e-19   70.5   0.0     1    86   270   355   270   356 0.91 Transposase IS116/IS110/IS902 family
+DUF1205              PF06722.14    95 BGC0000277.1_ORF6:gid:urdGT1c:pid:AAF00217.1:loc:7261:8437:strand:+ -            391   2.1e-13   50.2   0.0   1   1   2.4e-17   4.7e-13   49.2   0.0     2    95   177   271   176   271 0.91 Protein of unknown function (DUF1205)
+TetR_N               PF00440.25    47 BGC0000277.1_ORF7:gid:urdK:pid:AAF00218.1:loc:8556:9120:strand:- -            187   3.7e-17   62.0   0.3   1   1     4e-21   7.7e-17   60.9   0.0     3    46    13    56    11    57 0.94 Bacterial regulatory proteins, tetR family
+MFS_1                PF07690.18   353 BGC0000277.1_ORF8:gid:urdJ:pid:AAF00219.1:loc:9247:10825:strand:+ -            525   5.9e-52  176.8  49.3   1   1   8.7e-55   5.6e-51  173.6  48.5     1   352    27   419    27   420 0.87 Major Facilitator Superfamily
+TRI12                PF06609.15   599 BGC0000277.1_ORF8:gid:urdJ:pid:AAF00219.1:loc:9247:10825:strand:+ -            525   6.7e-15   54.6  21.8   1   1   1.5e-18   9.6e-15   54.1  21.8    64   481    42   446    14   489 0.82 Fungal trichothecene efflux pump (TRI12)
+Sugar_tr             PF00083.26   452 BGC0000277.1_ORF8:gid:urdJ:pid:AAF00219.1:loc:9247:10825:strand:+ -            525   2.5e-09   36.6  13.9   1   1   3.9e-13   2.5e-09   36.6  13.9    48   188    58   192    55   202 0.82 Sugar (and other) transporter
+FMN_red              PF03358.17   156 BGC0000277.1_ORF9:gid:urdO:pid:AAF00220.1:loc:10885:11479:strand:+ -            197   1.6e-40  138.5   0.0   1   1   2.1e-44     2e-40  138.2   0.0     2   155     7   153     6   154 0.94 NADPH-dependent FMN reductase
+Flavodoxin_2         PF02525.19   198 BGC0000277.1_ORF9:gid:urdO:pid:AAF00220.1:loc:10885:11479:strand:+ -            197   5.7e-09   36.1   0.0   1   1   7.8e-13   7.4e-09   35.7   0.0     4   102     9   103     7   136 0.78 Flavodoxin-like fold
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0000277.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0000277.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0000277.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:42:25 2022
+# [ok]

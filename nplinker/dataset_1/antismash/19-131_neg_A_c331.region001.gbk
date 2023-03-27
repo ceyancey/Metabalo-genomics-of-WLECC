@@ -1,0 +1,102 @@
+LOCUS       c_000000000331          1870 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000000331.
+ACCESSION   c_000000000331
+VERSION     c_000000000331
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 16:06:02
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1870
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..1870
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[836:977](+)"
+                     /cutoff="10000"
+                     /detection_rule="(PF13471 and Asn_synthase or micJ25 or
+                     mcjC)"
+                     /neighbourhood="10000"
+                     /product="lassopeptide"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      837..977
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="10000"
+                     /detection_rule="(PF13471 and Asn_synthase or micJ25 or
+                     mcjC)"
+                     /neighbourhood="10000"
+                     /product="lassopeptide"
+                     /protocluster_number="1"
+     cand_cluster    1..1870
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(PF13471 and Asn_synthase or micJ25 or
+                     mcjC)"
+                     /kind="single"
+                     /product="lassopeptide"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1870
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="lassopeptide"
+                     /region_number="1"
+                     /rules="(PF13471 and Asn_synthase or micJ25 or mcjC)"
+                     /tool="antismash"
+     CDS             3..188
+                     /locus_tag="ctg168_1"
+                     /transl_table=11
+                     /translation="DQQKIFLNNYSSVTQRTTDSVRYCKRFKLIPAKKVHFESYLLRKS
+                     PLIMATEDKLVYDFVL"
+     CDS             837..977
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lassopeptide: micJ25"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg168_2"
+                     /sec_met_domain="micJ25 (E-value: 1.5e-24, bitscore: 72.8,
+                     seeds: 5, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MGSTHSLHLKLYVWNLGEASGIPGVAVKCVDIRRNTGGEGDLLAI
+                     D"
+ORIGIN
+        1 tagaccaaca aaagatcttt ctcaacaatt atagtagcgt gactcaaaga accacagatt
+       61 ccgtaaggta ctgcaaaagg ttcaagttaa ttccagcgaa aaaagtccat tttgagagct
+      121 atcttcttcg gaagagcccg ctcattatgg caacagaaga caagctcgtc tatgattttg
+      181 tgctctaaat tttcacgaag atagagaata gtcaagattg tagatgaacc gatatgatag
+      241 attggcttcg gtcaatttca acacggagag tttgatcctg gctcagaact aacgctggcg
+      301 gcgcgtctta aacatgcaag tcgagcggat atagcaatat attagcggcg aacgggtgag
+      361 taatacatgg gtaacctacc tctaagttgg ggataacatt ccgaaaggaa tgctaatacc
+      421 gaatgtgtcc aaagattcat aaggataatt gggtaaagca gcaatgcact tagagatggg
+      481 cccatgcctg attagctagt tggtagggta aaggcctacc aaggcgacga tcagtagccg
+      541 gcctgagagg gtgaacggcc acaatggaac tgcgacacgg tccatactcc tacgggaggc
+      601 agcagttaag aatcttgctc aatgggggaa accctgaagc agcgacgccg cgtgaacgat
+      661 gaaggttttc ggattgtaaa gttcaataag tagggacgaa aaaaatgacg gtacctacct
+      721 aaagcaccgg ctaactacgt gccagcagcc gcggtaatac gtatggtgca agcgttgttc
+      781 ggaatcattg ggcgtaaagg gtatgtaggc ggatatataa gtcagatgtg aaaactatgg
+      841 gctcaaccca tagcctgcat ttgaaactgt atgtctggaa tcttggagag gcaagtggaa
+      901 ttcctggtgt agcggtgaaa tgcgtagata tcaggaggaa caccggtggc gaaggcgact
+      961 tgctggccat agattgacgc tgagatacga aagcgtgggt agtgaacggg attagatacc
+     1021 ccggtaatcc acgccctaaa cgttgtctac cagttgttgg gggtttttac cctcagtaac
+     1081 gaacttaacg gattaagtag accgcctggg gactatgctc gcaagagtga aactcaaagg
+     1141 aattgacggg ggtccgcaca agcggtggag catgtggttt aattcgatga tacgcgaaaa
+     1201 accttacctg ggcttgacat gcagtggaat tatgtagaga tacatgagcc ttcgggccgc
+     1261 tgcacaggtg ctgcatggct gtcgtcagct cgtgtcgtga gatgttgggt taagtcccgc
+     1321 aacgagcgca acccttatca aatgttgcca tcattcagtt gggcactcgt ttgaaactgc
+     1381 cggtgacaaa ccggaggaag gcggggatga cgtcaagtcc tcatggcctt tatgtccagg
+     1441 gcaacacacg tgctacaatg gcgggtacag agggtagcca aaccgtgagg tggagccaat
+     1501 ctcttaaagc ccgtcccagt tcggattgaa gtctgcaact cgacttcatg aagtcggaat
+     1561 cgctagtaat cgcggatcag catgccgcgg tgaatacgtt cccggacctt gtacacaccg
+     1621 cccgtcacac cacctgagtg gggagcaccc gaagaggttg tcgttaactg caaagaggcg
+     1681 cacttctaag gtgatactcg tgaagggggt gaagtcgtaa caaggtagcc gtatcggaag
+     1741 gtgcggctgg atcacctcct tttataaagg aaccaagttc gattcgctgt gagtcacgtt
+     1801 actttaattg tttttagaga aggatattct tctaatttaa gctcaaggat tttccttggg
+     1861 cttttttgtt
+//

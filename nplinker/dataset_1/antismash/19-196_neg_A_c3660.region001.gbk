@@ -1,0 +1,184 @@
+LOCUS       c_000000003660          2168 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000003660.
+ACCESSION   c_000000003660
+VERSION     c_000000003660
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 16:03:04
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 2168
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..2168
+                     /aStool="rule-based-clusters"
+                     /category="terpene"
+                     /contig_edge="True"
+                     /core_location="[625:1435](-)"
+                     /cutoff="20000"
+                     /detection_rule="(Terpene_synth or Terpene_synth_C or
+                     phytoene_synt or Lycopene_cycl or terpene_cyclase or NapT7
+                     or fung_ggpps or fung_ggpps2 or trichodiene_synth or TRI5)"
+                     /neighbourhood="10000"
+                     /product="terpene"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      complement(626..1435)
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(Terpene_synth or Terpene_synth_C or
+                     phytoene_synt or Lycopene_cycl or terpene_cyclase or NapT7
+                     or fung_ggpps or fung_ggpps2 or trichodiene_synth or TRI5)"
+                     /neighbourhood="10000"
+                     /product="terpene"
+                     /protocluster_number="1"
+     cand_cluster    1..2168
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(Terpene_synth or Terpene_synth_C or
+                     phytoene_synt or Lycopene_cycl or terpene_cyclase or NapT7
+                     or fung_ggpps or fung_ggpps2 or trichodiene_synth or TRI5)"
+                     /kind="single"
+                     /product="terpene"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..2168
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="terpene"
+                     /region_number="1"
+                     /rules="(Terpene_synth or Terpene_synth_C or phytoene_synt
+                     or Lycopene_cycl or terpene_cyclase or NapT7 or fung_ggpps
+                     or fung_ggpps2 or trichodiene_synth or TRI5)"
+                     /tool="antismash"
+     aSDomain        56..535
+                     /aSDomain="TIGR01156"
+                     /aSTool="tigrfam"
+                     /description="cytb6/f_IV: cytb6/f complex subunit IV"
+                     /detection="hmmscan"
+                     /domain_id="TIGRFam_ctg1014_1_0001"
+                     /evalue="1.00E-95"
+                     /identifier="TIGR01156"
+                     /label="ctg1014_1"
+                     /locus_tag="ctg1014_1"
+                     /protein_end="160"
+                     /protein_start="0"
+                     /score="316.0"
+                     /tool="antismash"
+                     /translation="MSTLKKPDLSDPALRAKLAKGMGHNYYGEPAWPNDLLYVFPVVIF
+                     GTIGLCTGLAIMDPTMIGEPADPFATPLEILPEWYLYPVFQILRILPNKLLGIACMAGV
+                     PLGLMLVPFIESVNKFQNPFRRPVATAIFLFGTVVTIWLGIGATFPIDISLTLGLF"
+     CDS             56..538
+                     /locus_tag="ctg1014_1"
+                     /transl_table=11
+                     /translation="MSTLKKPDLSDPALRAKLAKGMGHNYYGEPAWPNDLLYVFPVVIF
+                     GTIGLCTGLAIMDPTMIGEPADPFATPLEILPEWYLYPVFQILRILPNKLLGIACMAGV
+                     PLGLMLVPFIESVNKFQNPFRRPVATAIFLFGTVVTIWLGIGATFPIDISLTLGLF"
+     PFAM_domain     248..499
+                     /aSDomain="Cytochrom_B_C"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00032.19"
+                     /db_xref="GO:0009055"
+                     /db_xref="GO:0016020"
+                     /db_xref="GO:0016491"
+                     /description="Cytochrome b(C-terminal)/b6/petD"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1014_1_0001"
+                     /evalue="5.70E-17"
+                     /gene_ontologies="GO:0009055: electron transfer activity"
+                     /gene_ontologies="GO:0016020: membrane"
+                     /gene_ontologies="GO:0016491: oxidoreductase activity"
+                     /label="ctg1014_1"
+                     /locus_tag="ctg1014_1"
+                     /protein_end="148"
+                     /protein_start="64"
+                     /score="61.9"
+                     /tool="antismash"
+                     /translation="PADPFATPLEILPEWYLYPVFQILRILPNKLLGIACMAGVPLGLM
+                     LVPFIESVNKFQNPFRRPVATAIFLFGTVVTIWLGIGAT"
+     CDS             complement(626..1435)
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     terpene: phytoene_synt"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg1014_2"
+                     /sec_met_domain="phytoene_synt (E-value: 4.7e-10, bitscore:
+                     27.2, seeds: 8, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MNLRDNALTILQETSRTFYIPISRLPDRLLEAVASAYLCMRAIDE
+                     VEDHPDLDNFSKAQILRQISLNLQAGTENSTKEDFTFGLVHREILPEVTLRIGEWAMLA
+                     PDSIAPRVWDATAAMADRMAYWAGNNWDIRTEVELDQYTFSVAGAVGLLLSDLWNWYDG
+                     TETNRSYAIGFGRGLQAVNIARNHGEDRRRGVSFLPQGWTISDIHNYARRNLKLADYYT
+                     QSLPKGPALDFCKIPLALAHGTLEVLALGKEKLSRSDVIALVQQITR"
+     PFAM_domain     complement(827..1402)
+                     /aSDomain="SQS_PSY"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00494.21"
+                     /description="Squalene/phytoene synthase"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1014_2_0002"
+                     /evalue="1.70E-17"
+                     /label="ctg1014_2"
+                     /locus_tag="ctg1014_2"
+                     /protein_end="203"
+                     /protein_start="11"
+                     /score="63.9"
+                     /tool="antismash"
+                     /translation="QETSRTFYIPISRLPDRLLEAVASAYLCMRAIDEVEDHPDLDNFS
+                     KAQILRQISLNLQAGTENSTKEDFTFGLVHREILPEVTLRIGEWAMLAPDSIAPRVWDA
+                     TAAMADRMAYWAGNNWDIRTEVELDQYTFSVAGAVGLLLSDLWNWYDGTETNRSYAIGF
+                     GRGLQAVNIARNHGEDRRRGVSFLPQGWT"
+     CDS             complement(1703..1927)
+                     /locus_tag="ctg1014_3"
+                     /transl_table=11
+                     /translation="MSISVTGQVKRIEIGTGTWALIADNGQTYELIDPPAELTQKKAKV
+                     TVMGEIRSDVMTLAMIGPVLQVISFQSLP"
+     CDS             complement(2054..2167)
+                     /locus_tag="ctg1014_4"
+                     /transl_table=11
+                     /translation="KNFLPQTLVMRQSDREIMILAAVASLLAVVAEVAIAF"
+ORIGIN
+        1 ataattcaga aaaatatctc tgtcgatccg aaatcatttt taggagacat tatccatgtc
+       61 cacattaaaa aagcccgatc tcagcgatcc cgctctgcgc gctaagttgg ctaaagggat
+      121 gggtcacaac tactacggtg aacctgcttg gcccaacgat ctactctatg tcttcccggt
+      181 ggttatcttc ggtacgatcg gactctgcac cggtttagcg attatggatc ccaccatgat
+      241 cggtgaacct gccgatcctt tcgctactcc cttagaaatt ctgccagagt ggtatcttta
+      301 tcccgttttc caaattctcc gcattcttcc taacaaactc ttaggtatcg cttgcatggc
+      361 cggcgttccc ctaggcttga tgttagttcc ttttattgaa agcgtcaata aattccaaaa
+      421 tcctttccgt cgtcccgtcg ctaccgctat cttcctattt ggtactgtgg tcacgatttg
+      481 gttaggtatt ggtgccactt tccccatcga tatatcttta actctcggtt tgttctaagt
+      541 tactgaactt caccggtttt ttgcccacgc ttgtgattcc tgactttgga agagcgatcg
+      601 tgggcaattt taatggtgat ttcctctaac gggtaatttg ttgtaccaaa gcgatgacat
+      661 cgctgcggct gagtttttcc ttacctaaag ctaggacttc gagagtgcca tgggctaaag
+      721 cgaggggaat cttacaaaaa tcgagtgccg gccctttcgg cagcgattga gtgtaataat
+      781 cggctaattt cagattacga cgggcataat tatgaatatc actaattgtc caaccctggg
+      841 gcagaaaact taccccccgg cgccgatcct ccccatggtt gcgggcaata ttaaccgctt
+      901 gtaaaccccg accaaaaccg atggcataac tgcgattagt ttcggtgcca tcgtaccaat
+      961 tccagaggtc agacagcaat aaacccacgg caccggccac actaaaggta tattgatcta
+     1021 attccacttc tgtgcgaata tcccagttat tcccggccca gtaggccatg cgatcggcca
+     1081 tggccgccgt ggcatcccaa acccgggggg cgatcgaatc cggtgctaac attgcccatt
+     1141 cgccaattct cagggttact tccggcaaaa tctcccgatg gactaagcca aaagtaaaat
+     1201 cctctttggt agaattttca gtacctgctt gtaaattcag gctaatttgt cttaatatct
+     1261 gggctttact gaagttatct aggtcgggat ggtcttctac ttcatcgatc gccctcatac
+     1321 agagataagc tgaggctact gcctcgagca gacgatccgg taaacgactt atgggaatat
+     1381 aaaaagttcg actcgtttct tgcagaatcg ttaaagcatt atcgcgcaaa ttcattcagt
+     1441 ccactcctca cgccaactta ggtaactacg agttaaacca atcagacaga tcggtttagg
+     1501 tattccgatg ttcctaagac aaagttgctg tctattgtag tatgattatt caaaatttcg
+     1561 agattattct cgaaaaaatc aaccattagg gtcttcttga caatttttct ttctcgtata
+     1621 gctgagagac aattacggca atttttcgag attacaggct taaaagcggt ttttgcccgt
+     1681 ttttaaacag tattttgcgg cttcatggca gggattgaaa ggagatcact tgtaaaaccg
+     1741 ggccgatcat ggccagagtc atcacatctg agcgaatttc acccataact gtcacttttg
+     1801 cctttttttg ggttaattcg gcgggagggt ctattaattc gtaggtttga ccgttatcag
+     1861 caattaatgc ccaagttcct gtgcctattt cgattctttt tacctgaccg gttacactaa
+     1921 tactcatgct ttaatttcct tcatcgaggc gatcgcaatt gccgcccctg ttacaagcat
+     1981 tgtatcgata tctttcctcg gcattgattg ccaattttgc cagactttaa ccctgtaaat
+     2041 cagttttttt tatctaaaaa gcgatcgcta cttccgccac caccgctaag agggaggcca
+     2101 cagccgctaa aatcattatt tctcgatcgg attgtctcat aactagggtt tgcggcaaaa
+     2161 agtttttc
+//

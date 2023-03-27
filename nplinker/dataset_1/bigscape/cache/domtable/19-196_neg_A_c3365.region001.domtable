@@ -1,0 +1,17 @@
+#                                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AMP-binding          PF00501.30   424 19-196_neg_A_c3365.region001_ORF1:gid::pid::loc:2:2405:strand:+ -            801  7.2e-105  351.1   0.0   1   1    2e-108  9.5e-105  350.7   0.0     1   424    60   463    60   463 0.87 AMP-binding enzyme
+Condensation         PF00668.22   457 19-196_neg_A_c3365.region001_ORF1:gid::pid::loc:2:2405:strand:+ -            801   3.7e-33  115.0   5.8   1   1   1.3e-32   6.4e-29  101.0   1.2     3   155   651   801   649   801 0.92 Condensation domain
+PP-binding           PF00550.27    67 19-196_neg_A_c3365.region001_ORF1:gid::pid::loc:2:2405:strand:+ -            801   1.3e-14   54.4   0.0   1   1   6.9e-18   3.3e-14   53.0   0.0     1    65   573   634   573   636 0.94 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.8     76 19-196_neg_A_c3365.region001_ORF1:gid::pid::loc:2:2405:strand:+ -            801   9.3e-13   49.1   0.0   1   1   5.5e-16   2.6e-12   47.6   0.0     1    76   471   545   471   545 0.91 AMP-binding enzyme C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-196_neg_A_c3365.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-196_neg_A_c3365.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-196_neg_A_c3365.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:41:21 2022
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                         accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                               -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ABC_membrane_2       PF06472.17   269 19-12.2_neg_A_c1162.region001_ORF1:gid::pid::loc:729:2733:strand:- -            667   4.9e-39  134.4   6.6   1   1   1.2e-42   7.6e-39  133.8   6.6    11   248    44   280    39   298 0.92 ABC transporter transmembrane region 2
+ABC_tran             PF00005.29   137 19-12.2_neg_A_c1162.region001_ORF1:gid::pid::loc:729:2733:strand:- -            667   1.6e-19   70.9   0.1   1   1   9.6e-23   6.1e-19   69.0   0.0     2   137   389   526   388   526 0.83 ABC transporter
+ABC_membrane         PF00664.25   274 19-12.2_neg_A_c1162.region001_ORF1:gid::pid::loc:729:2733:strand:- -            667   3.4e-12   46.7   8.4   1   1   9.2e-16   5.9e-12   45.9   8.4     3   261    52   310    50   322 0.87 ABC transporter transmembrane region
+Thioesterase         PF00975.22   230 19-12.2_neg_A_c1162.region001_ORF2:gid::pid::loc:2796:4233:strand:- -            478   4.3e-32  112.2   0.0   1   1   1.4e-35   9.1e-32  111.1   0.0     2   216   221   465   220   476 0.75 Thioesterase domain
+PP-binding           PF00550.27    67 19-12.2_neg_A_c1162.region001_ORF2:gid::pid::loc:2796:4233:strand:- -            478   1.2e-17   64.1   0.2   1   1   4.4e-21   2.8e-17   62.9   0.2     2    67   135   198   134   198 0.95 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.8     76 19-12.2_neg_A_c1162.region001_ORF2:gid::pid::loc:2796:4233:strand:- -            478   2.6e-17   63.6   0.0   1   1   7.9e-21     5e-17   62.7   0.0     1    76    31   106    31   106 0.94 AMP-binding enzyme C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-12.2_neg_A_c1162.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-12.2_neg_A_c1162.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-12.2_neg_A_c1162.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 21:00:11 2022
+# [ok]

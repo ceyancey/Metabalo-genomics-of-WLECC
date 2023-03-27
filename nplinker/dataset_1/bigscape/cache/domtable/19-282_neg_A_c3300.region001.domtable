@@ -1,0 +1,18 @@
+#                                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+AMP-binding          PF00501.30   424 19-282_neg_A_c3300.region001_ORF1:gid::pid::loc:1:1465:strand:+ -            487   2.6e-66  224.1   0.0   1   1   5.1e-70   3.2e-66  223.8   0.0   125   424     4   290     1   290 0.87 AMP-binding enzyme
+PP-binding           PF00550.27    67 19-282_neg_A_c3300.region001_ORF1:gid::pid::loc:1:1465:strand:+ -            487   2.4e-14   53.5   0.0   1   1   8.6e-18   5.5e-14   52.3   0.0     1    67   401   465   401   465 0.94 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.8     76 19-282_neg_A_c3300.region001_ORF1:gid::pid::loc:1:1465:strand:+ -            487   1.3e-08   35.8   0.0   1   1   3.8e-12   2.4e-08   34.9   0.0     1    76   298   372   298   372 0.92 AMP-binding enzyme C-terminal domain
+Condensation         PF00668.22   457 19-282_neg_A_c3300.region001_ORF2:gid::pid::loc:1478:1904:strand:+ -            142   1.1e-20   73.9   0.3   1   1   1.4e-24   1.3e-20   73.6   0.3     2    73    71   142    70   142 0.97 Condensation domain
+TubC_N               PF18563.3     52 19-282_neg_A_c3300.region001_ORF2:gid::pid::loc:1478:1904:strand:+ -            142   2.8e-10   40.2   0.0   1   1   5.1e-14   4.9e-10   39.5   0.0     2    51     2    51     1    52 0.98 TubC N-terminal docking domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-282_neg_A_c3300.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-282_neg_A_c3300.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-282_neg_A_c3300.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 21:06:21 2022
+# [ok]

@@ -1,0 +1,128 @@
+LOCUS       c_000000002888          1998 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000002888.
+ACCESSION   c_000000002888
+VERSION     c_000000002888
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 16:49:41
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1998
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..1998
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[1303:1462](-)"
+                     /cutoff="20000"
+                     /detection_rule="(mvd or mvnA)"
+                     /neighbourhood="10000"
+                     /product="microviridin"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      complement(1304..1462)
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(mvd or mvnA)"
+                     /neighbourhood="10000"
+                     /product="microviridin"
+                     /protocluster_number="1"
+     cand_cluster    1..1998
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(mvd or mvnA)"
+                     /kind="single"
+                     /product="microviridin"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1998
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="microviridin"
+                     /region_number="1"
+                     /rules="(mvd or mvnA)"
+                     /tool="antismash"
+     CDS             2..382
+                     /locus_tag="ctg994_1"
+                     /transl_table=11
+                     /translation="QLLTVEEQLKYALNFFKLANMLPPNAETRQLEKIVQAYKTSCLCL
+                     IDYLPKQIYPGKITIIRAREELADDPNKDLIAGDCEDSSLGWSEFSTEPVEIHFVLGNH
+                     VSIMVEPHVQILAKELKVCLEI"
+     CDS             660..1139
+                     /locus_tag="ctg994_2"
+                     /transl_table=11
+                     /translation="MTETTETAIPNDFLGINPTDINKKLVSWGISLDEVVQKLASLGLP
+                     GIIFIIAVAASGGTAYPMIYALFGLGGPLGLIGGLGVLGLSTIIGDIVTGYGIEALLKT
+                     VYLKRRETETQEYLINEVEGLPISQVLKLNLKKAIEVEIAAEEPIAPKEVEIAEE"
+     CDS             complement(1304..1462)
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     microviridin: mvnA"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     microviridin: mvd"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg994_3"
+                     /sec_met_domain="mvnA (E-value: 6.5e-27, bitscore: 81.2,
+                     seeds: 16, tool: rule-based-clusters)"
+                     /sec_met_domain="mvd (E-value: 1.4e-14, bitscore: 42.0,
+                     seeds: 55, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MNYPNSEQSKAIPFFARFLSVDQDEDPTPDSPPDSEPAPVWTWKW
+                     PSDWEDS"
+     PFAM_domain     complement(1310..1441)
+                     /aSDomain="Inhibitor_I10"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF12559.10"
+                     /description="Serine endopeptidase inhibitors"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg994_3_0001"
+                     /evalue="1.30E-08"
+                     /label="ctg994_3"
+                     /locus_tag="ctg994_3"
+                     /protein_end="51"
+                     /protein_start="7"
+                     /score="35.0"
+                     /tool="antismash"
+                     /translation="QSKAIPFFARFLSVDQDEDPTPDSPPDSEPAPVWTWKWPSDWED"
+ORIGIN
+        1 tcaactctta acagtggagg aacaattaaa atacgcctta aactttttta aactggctaa
+       61 tatgcttcct cccaatgcgg aaactaggca gcttgaaaaa attgtccaag cctataaaac
+      121 tagctgttta tgtctgattg attatctccc taaacagatt tatcctggta aaattacgat
+      181 tatacgggcc agggaggaat tagctgatga tccaaataaa gatttaatag ctggagattg
+      241 cgaggattcc tctttaggct ggagtgaatt ttctacagag ccagttgaga ttcatttcgt
+      301 cctaggaaat catgtctcga ttatggtgga accccatgtc cagattttag ccaaagagtt
+      361 aaaagtttgc cttgagattt gataccaaac ccgtttttaa gactatggtt aactcccaat
+      421 ccaacttgaa aaacccagtt atcaattgtt tctccccaat ctcatctatc ttttaaacag
+      481 gatttaatct aagaactgac gattttctac aagttgtgtg aacggtaaga ctaatgtaaa
+      541 atgctgcaag gcatctgatt gctagacagc cgatttgtat tcttttgcct taccatggat
+      601 tttatatgac tgaaatcccg accaaccaat ccaacttagt gattttagga gtctcatcaa
+      661 tgacggaaac tactgaaacg gccattccca atgattttct cggaattaat cccacagaca
+      721 tcaacaaaaa acttgtctcc tggggaattt ctctggatga agttgttcaa aaacttgctt
+      781 ctctgggact ccccggcatt attttcatta ttgctgttgc cgcatccggt ggtactgcct
+      841 atccgatgat ttacgcactt tttgggttag gcggtccgct gggactaatt ggtggacttg
+      901 gggtcttagg cctctctacc attattggcg acattgtgac gggttatggc attgaggcac
+      961 tgcttaaaac ggtctatctc aaacgtcgtg aaacagaaac tcaagaatat ctcatcaatg
+     1021 aggtggaagg tttgccaatt tctcaagttc taaaacttaa cctgaaaaag gctattgaag
+     1081 tagaaattgc tgccgaagaa cccattgctc ccaaagaagt cgaaattgct gaagagtagt
+     1141 tgtgacttga ctaagcacct tctctccccg ctgccctcac cggcaaattg actttttcag
+     1201 caaaccctaa atacaacaaa aaaccgccat aaatcttact cctgcttgac ctatggcggt
+     1261 agtttatttc tgtctgaatt actgaaagca atctttaaat taattaacta tcttcccagt
+     1321 cagaaggcca tttccaagtc caaacgggag ccggttcaga atcggggggg gaatcgggag
+     1381 tcggatcctc gtcttggtcc acagataaaa aacgagcaaa gaaggggatt gctttacttt
+     1441 gttcgctatt gggataattc atggtcattc ctagttttga gtagcagctt tttcaagata
+     1501 gctgcgatta ccttgtgata gtaacatata ttgccgtctt actcaagtca aatactcacc
+     1561 ttacccgcac tcccatcggt gacacttata gctttattca gggtcatcag gtacgccaat
+     1621 tttcttccct gttctccgct ccccattcct aattcaaaag cgataacttc tgtccctcac
+     1681 cagatatgat aatatagatt gatggttata ggttaattga taaaaacttt ttttaccatt
+     1741 aaattgggct gttagttgaa cctctaaggg aaatttatcg gtatctaagg gaaaaggtgt
+     1801 ggctcctttt ttttatatcg cctcagccac gcggtcaata tctagtgcct taacaagagt
+     1861 ttggcaagca ttgctataac ccacttccca cttcccgctc tactaagccc aatcgtgtta
+     1921 aactaatgta gtttttgccg aaacagttaa gtgagtttaa caatggataa aaatgaatgg
+     1981 attagtagat tcgatgat
+//

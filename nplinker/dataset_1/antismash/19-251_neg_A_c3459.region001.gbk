@@ -1,0 +1,134 @@
+LOCUS       c_000000003459          2402 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000003459.
+ACCESSION   c_000000003459
+VERSION     c_000000003459
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 15:26:07
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 2402
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..2402
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[1195:2281](+)"
+                     /cutoff="20000"
+                     /detection_rule="(cyanobactin_synth or TIGR03678)"
+                     /neighbourhood="10000"
+                     /product="cyanobactin"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      1196..2281
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(cyanobactin_synth or TIGR03678)"
+                     /neighbourhood="10000"
+                     /product="cyanobactin"
+                     /protocluster_number="1"
+     cand_cluster    1..2402
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(cyanobactin_synth or TIGR03678)"
+                     /kind="single"
+                     /product="cyanobactin"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..2402
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="cyanobactin"
+                     /region_number="1"
+                     /rules="(cyanobactin_synth or TIGR03678)"
+                     /tool="antismash"
+     CDS             104..241
+                     /locus_tag="ctg255_1"
+                     /transl_table=11
+                     /translation="MPPYRTIPSNEEPDNAYIASLPEWGKYARTHGNTYQEAIDNAQEV
+                     "
+     CDS             622..846
+                     /locus_tag="ctg255_2"
+                     /transl_table=11
+                     /translation="MMTLEQALMTVNELPIEQREMLIEIVKNQMIESYRDEIARNAKEA
+                     REAFQRGELKPQPLEDIIDELKTLLTEDE"
+     CDS             843..1136
+                     /locus_tag="ctg255_3"
+                     /transl_table=11
+                     /translation="MKEIIATQKFKRSFRKFVKRNAQLEQKIIETLKLMQEDIFTPQLA
+                     THSLQGKLLGLKACSCGYDCRIIFSLERPETNDKEQKEVIILIDIGTHDRVY"
+     CDS             1196..2281
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     cyanobactin: cyanobactin_synth"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Peptidase_S8"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1075:alkaline serine protease, subtilase family
+                     (Score: 172.6; E-value: 2.8e-52)"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg255_4"
+                     /sec_met_domain="cyanobactin_synth (E-value: 7.4e-53,
+                     bitscore: 168.3, seeds: 40, tool: rule-based-clusters)"
+                     /sec_met_domain="Peptidase_S8 (E-value: 3.2e-39, bitscore:
+                     123.3, seeds: 43, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTQILSIPGLKELQKQTQGASEITIAILDGVVDTNHSCFNGADLT
+                     RLPTLVQHQATAGQMSTHGTHIASLIFGQPNSEIPGIAPQCRGLLVPVFSDDNRKLSQL
+                     DLARAIEQAAEKGAKVINISGGALTDMGEAEDWLIRAVEMCNERNILIVAAAGNDGCEC
+                     LQVPAALPAVLAVGAVDARGHPLDFSNWGETYQSQGILAPGENILGAKPGGGTVQLSGT
+                     SFAAPIVAGVAALLLSLQVQRGETPNPHAVREAILKSALPCQYADSENEPKCLAGVLNI
+                     SGAIQQLTGETMSESVETQATVEASGCGCGGTPETPEAQRQNLELSAATSEPVIPVAQI
+                     PNPVTTSQGVSMPETTKLKRT"
+     CDS             2324..2401
+                     /locus_tag="ctg255_5"
+                     /transl_table=11
+                     /translation="MPAKDFLDLEEKKNLQKALKEEERAE"
+ORIGIN
+        1 gaacccttat agagaaaggc atttagcgat ttttgtcaat tgttttttat ctagagcgaa
+       61 ctaatcaatt aagtctcttg ccagataagg atttagtcga tttatgcccc cctatcgaac
+      121 cataccaagt aacgaagaac cagataatgc ctatattgcc agtttacccg aatggggaaa
+      181 atacgctcgc actcacggca acacctatca agaagccatt gataatgccc aagaagtttg
+      241 agaagatttg gtagatatat atactcaaga aaataaacct ttgccctcgc caaaactatt
+      301 acaaatagct gagaaaatta ctaatgacta acctcccaac tattctagga ctaaaagtag
+      361 gtttttctcc cggagaaaat gatttcaaca aaaacttaac acaaattcac tcaaaaacta
+      421 ttgactcggc aaaaaagagg tagtacgatg gagaatcaag agcaattagg tcggatttac
+      481 catgatgaaa accaaaagag aatcaaaaaa acatgaatta gaacccctac aaagtttaga
+      541 attacccatt ttttgacgac aggaaatacc aagattacag ctaccgttaa acctattaca
+      601 acaatcaaga gaggataaat tatgatgaca ttagaacaag ctcttatgac agttaatgaa
+      661 ctacctattg aacagagaga aatgttaata gaaattgtca aaaatcaaat gatagaatcc
+      721 tatcgagacg aaatagcccg aaatgctaaa gaagcgaggg aagcttttca aagaggagaa
+      781 ttaaaaccgc aacctttaga agatattatt gatgaattaa aaaccctatt aacagaagat
+      841 gaatgaaaga gattattgca acacagaagt ttaaacggtc atttcgtaaa tttgtcaagc
+      901 gtaatgctca acttgaacaa aaaattattg aaacattaaa gctaatgcaa gaagatattt
+      961 ttacccctca gttagccact cattcattac aaggaaaatt attaggacta aaagcttgtt
+     1021 cttgtggtta tgattgtaga attatatttt ctttagaaag accagaaact aatgataagg
+     1081 agcaaaaaga agtaatcatt ctaattgata ttggtactca tgatcgggtt tattaaactt
+     1141 aatttttaac ctcatttttc acctaactta ctctgattca ctaatcatta ataaaatgac
+     1201 tcaaattctc tcgattccag gactaaaaga actacaaaaa caaacccaag gcgcatcaga
+     1261 aataaccatc gccattctcg atggtgtagt tgacactaac cactcctgtt ttaacggggc
+     1321 agacctaacc cgtttaccca ccctcgtcca gcatcaagcc accgcggggc aaatgtccac
+     1381 tcacggaacc catattgcca gcctcatctt cggacaaccc aacagcgaaa tccctggcat
+     1441 tgccccccag tgtcgaggcc tactcgtacc cgtcttctcc gacgataacc gcaaactctc
+     1501 ccaactcgat ttagcgaggg cgattgaaca agccgccgaa aaaggggcaa aagtgattaa
+     1561 tattagcggc ggtgccctca ctgatatggg agaagccgaa gactggctaa ttcgcgccgt
+     1621 cgagatgtgt aacgagagaa atattcttat cgttgccgct gctggcaatg atggctgtga
+     1681 atgcctgcaa gttccggcag cccttcccgc cgtcctagcg gtgggtgctg ttgatgctag
+     1741 agggcatccc ctcgacttta gtaattgggg ggaaacctac caaagtcaag gcatccttgc
+     1801 ccctggagaa aacatcttag gggcaaaacc aggcggcggg actgtgcaac tgagtgggac
+     1861 cagcttcgcc gcgcccattg tggccggagt agccgcccta ttactcagct tgcaggtgca
+     1921 gcgaggagaa acccccaatc ctcacgcagt ccgggaagcg atactaaaaa gcgcgctccc
+     1981 ctgccaatat gccgacagcg aaaatgaacc aaaatgttta gccggagtgt tgaacatttc
+     2041 tggggcaatt caacaactaa caggagaaac catgtccgaa tctgtggaaa cccaagcaac
+     2101 agtagaagca tcgggctgtg gctgcggtgg tacgcccgaa acccctgagg ctcaacgcca
+     2161 aaatctcgaa ctgagtgccg caactagcga accggtaatc cccgtcgccc aaattcccaa
+     2221 tcctgtcacc acctctcaag gagtatccat gcccgaaact actaagctaa aacgcactta
+     2281 aaccacctaa aatagaaata gtaacttgag aaaaatccta cttatgccag ccaaagattt
+     2341 cctagactta gaagaaaaga aaaacttaca aaaagctctt aaagaagaag aaagagcaga
+     2401 gg
+//

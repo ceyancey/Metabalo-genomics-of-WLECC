@@ -1,0 +1,225 @@
+LOCUS       c_000000000595          3925 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000000595.
+ACCESSION   c_000000000595
+VERSION     c_000000000595
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 15:58:56
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 3925
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..3925
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[1128:3426]"
+                     /cutoff="20000"
+                     /detection_rule="(APH and HopA1)"
+                     /neighbourhood="20000"
+                     /product="lanthipeptide-class-v"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      1129..3426
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(APH and HopA1)"
+                     /neighbourhood="20000"
+                     /product="lanthipeptide-class-v"
+                     /protocluster_number="1"
+     cand_cluster    1..3925
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(APH and HopA1)"
+                     /kind="single"
+                     /product="lanthipeptide-class-v"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..3925
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="lanthipeptide-class-v"
+                     /region_number="1"
+                     /rules="(APH and HopA1)"
+                     /tool="antismash"
+     CDS             2..139
+                     /locus_tag="ctg5_1"
+                     /transl_table=11
+                     /translation="AKMGKMAADLNNNIQYVEMANTAHFPMLEDAPTYLQKLQDFLEIN
+                     "
+     CDS             155..460
+                     /locus_tag="ctg5_2"
+                     /transl_table=11
+                     /translation="MSFYDVTDKYIQDKELRRQDGYLGVQRRQDLKPEISAAVFATKPP
+                     QLLKPIVKAKGISLILVEEIIQPELNDQLRYQIWSELFGEWVINQIESVSGVTSLR"
+     PFAM_domain     161..343
+                     /aSDomain="Rotamase"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00639.23"
+                     /db_xref="GO:0003755"
+                     /description="PPIC-type PPIASE domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg5_2_0001"
+                     /evalue="2.30E-04"
+                     /gene_ontologies="GO:0003755: peptidyl-prolyl cis-trans
+                     isomerase activity"
+                     /label="ctg5_2"
+                     /locus_tag="ctg5_2"
+                     /protein_end="63"
+                     /protein_start="2"
+                     /score="22.2"
+                     /tool="antismash"
+                     /translation="FYDVTDKYIQDKELRRQDGYLGVQRRQDLKPEISAAVFATKPPQL
+                     LKPIVKAKGISLILVE"
+     CDS             complement(564..749)
+                     /locus_tag="ctg5_3"
+                     /transl_table=11
+                     /translation="MANITISELRPAGADLFSDSESYLTDLTGSETLGTLGGGGSISIC
+                     WENRRTRIRSVSICWN"
+     CDS             complement(1129..2232)
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lanthipeptide-class-v: HopA1"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg5_4"
+                     /sec_met_domain="HopA1 (E-value: 1.8e-67, bitscore: 215.1,
+                     seeds: 25, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MSLLNSQFHHLAPEVRGRLKEALLDIVENLEISADFSIRHPNYQP
+                     WEMPAEMLSRIQALPKEIQDKYMSLQLRSFLYGIYYNGSMQASQALGSENKGQQLDLEN
+                     NSFAGVAMDFYLQLEEANKGEGYFDSGWSILREETDGSLAVTKGGLRLHIQREKHLQES
+                     EQAAAVGAVVSILMPKNFVQNGFYMAVGNAGLQREEAMVRLYFNVTPEGAVAVMTGLTE
+                     RLNQRGIPFSFKALYNPVDYQRYDAGVLYFGKTDYELVRQVVAHVYQENQSVFKPEIPL
+                     FTLELAPGLGLAEEPDKKFGSEESFGMNRCQIIANGLLMAWQQEDNSAAGRITAISEQF
+                     SGLGIDWQRPYLNADSEDVYQGLELAG"
+     PFAM_domain     complement(1177..1704)
+                     /aSDomain="HopA1"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF17914.3"
+                     /description="HopA1 effector protein family"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg5_4_0002"
+                     /evalue="2.00E-63"
+                     /label="ctg5_4"
+                     /locus_tag="ctg5_4"
+                     /protein_end="352"
+                     /protein_start="176"
+                     /score="213.3"
+                     /tool="antismash"
+                     /translation="MPKNFVQNGFYMAVGNAGLQREEAMVRLYFNVTPEGAVAVMTGLT
+                     ERLNQRGIPFSFKALYNPVDYQRYDAGVLYFGKTDYELVRQVVAHVYQENQSVFKPEIP
+                     LFTLELAPGLGLAEEPDKKFGSEESFGMNRCQIIANGLLMAWQQEDNSAAGRITAISEQ
+                     FSGLGIDWQRPYL"
+     CDS             complement(2257..3426)
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lanthipeptide-class-v: APH"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg5_5"
+                     /sec_met_domain="APH (E-value: 3.2e-13, bitscore: 38.8,
+                     seeds: 156, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MKFVLSSQNVYDYLIDQKICDRCLENPGVEQIQAKNFNLLVTLPE
+                     GRKLLVKQEQFINLEKETVGEFFGEWRIPKFLENFPEIDYWRSFLPELLLHDADNSILV
+                     STYLDNYQDLAEFYSKENLFPAQVATQIGSCLATIHRDTWNQSIYREFFVKEEFAGKPK
+                     VSPLLLESLERIGPEIFGMAPMDGLKFFALYQRYDSLGEAVHRASETISPICLTHNDIK
+                     LNNILLNRNWEDINGNAIRLIDWERSDWGDPAFDLGMAIASYLQIWLGSLVISNSLSIE
+                     ESLRLATTPLELLQPSIGGLTLAYLETFPEILEYRPDFLKQVVQLAGFSLIIAILAMVQ
+                     YQKIFNNTGIAMLQVAKALLCRPESSMPTIFGATATHLNQINSSVVGQV"
+     PFAM_domain     complement(2638..3051)
+                     /aSDomain="APH"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF01636.25"
+                     /description="Phosphotransferase enzyme family"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg5_5_0003"
+                     /evalue="5.30E-10"
+                     /label="ctg5_5"
+                     /locus_tag="ctg5_5"
+                     /protein_end="263"
+                     /protein_start="125"
+                     /score="39.6"
+                     /tool="antismash"
+                     /translation="AQVATQIGSCLATIHRDTWNQSIYREFFVKEEFAGKPKVSPLLLE
+                     SLERIGPEIFGMAPMDGLKFFALYQRYDSLGEAVHRASETISPICLTHNDIKLNNILLN
+                     RNWEDINGNAIRLIDWERSDWGDPAFDLGMAIAS"
+     CDS             3744..3923
+                     /locus_tag="ctg5_6"
+                     /transl_table=11
+                     /translation="MARFLHRSIPKSEKIAFLEDFLAADYEAALGTIYTSVSKKAVEIM
+                     PGKFAEIKVPTLLVS"
+ORIGIN
+        1 tgccaaaatg ggcaaaatgg cggcggattt gaataataat atccagtatg tggagatggc
+       61 taatactgct cactttccca tgttagaaga tgcccctact tatctacaaa aattgcaaga
+      121 ttttttagaa attaattagg gtttgctagg ggaaatgagt ttctatgatg tgactgacaa
+      181 gtatattcag gataaagagt tacgccgtca ggatggatat ttgggggtac agcgtcgcca
+      241 ggatttaaaa ccagaaatat ctgctgctgt gtttgctacg aaacctcctc agttgcttaa
+      301 acctattgtg aaagctaaag ggataagctt gattttagtg gaggaaatta tacagccaga
+      361 gttaaatgat cagttacgct atcaaatttg gtcagagttg tttggcgagt gggttatcaa
+      421 tcaaattgag tcagtctcag gtgtcaccag tttgagatga atagcactaa cacgaatatc
+      481 atccagtcag gtcaacctaa ctggatgata gagagatttt agtaaaaact gggctagttt
+      541 cttaacaaga acctggagtt tttctaattc cagcaaatac tgacagagcg aattctggtt
+      601 cttctgtttt cccaacaaat actgatagaa ccaccgccac ctaatgtacc aagcgtttcc
+      661 gacccggtca agtcagtaag gtaactctca gaatcggaga acaagtctgc accagcaggg
+      721 cgtaactcag aaatagtaat attagccatt ttgtttcctc ttggaataag ttctactttg
+      781 aggtaatcag atttatgttt ttcctttccc tatgactgtt attattgcct aactctccaa
+      841 caatgacaat aggttaagca actttaaaat taatataaat gacacaatta tgtctcaatt
+      901 ttaccgacta aacaccgtaa cttcatctag attatgaccg caaacgccca gaatctcgta
+      961 tcaacgaggt tggtttttca agacataaat aacccaatta tgtctttttt atatctctct
+     1021 gcccagggtt cgggtggtgg cagagcaaaa aaatagcccc atgacctaat gaggctaaaa
+     1081 tctaccgacg ggccaatcac tctttgattc ccagataggc gactaatatc agcctgccaa
+     1141 ctctaatccc tgataaacat cctcagaatc agcattcaaa taaggacgct gccaatcaat
+     1201 ccccaaccca gaaaactgct cagaaatagc agtaatccga cccgccgcag aattgtcctc
+     1261 ctgttgccaa gccatcaaca acccattggc tataatctga cagcgattca tcccaaaact
+     1321 ctcctcactg ccaaactttt tgtctggttc ttccgccaac cccaaacccg gtgctaactc
+     1381 cagagtaaac aaaggtattt ctggcttaaa aacagactga ttttcttgat aaacatgagc
+     1441 caccacctgc ctgaccaact cataatctgt tttgccaaaa taaagcaccc cagcatcata
+     1501 tcgttgataa tcaactggat tatataaagc cttaaaacta aaaggaatcc ccctctgatt
+     1561 taacctttca gtcaacccag tcatcacagc caccgcgcct tcaggagtaa cattaaaata
+     1621 gagccgcacc atagcttcct ctctctgtaa accggcatta cccaccgcca tataaaagcc
+     1681 attttgtaca aaattcttag gcatcaaaat tgacacaaca gcacccactg ccgccgcttg
+     1741 ctcagactct tgaagatgct tttcccgttg gatatgcagt cgcaaaccgc ccttagtcac
+     1801 agccaaactg ccatcggttt cctctctcaa aattgaccaa cccgaatcaa aatatccctc
+     1861 ccccttgttc gcttcttcca actgtaaata aaagtccata gctacgccag caaaactatt
+     1921 attctccaaa tctaattgct gacccttatt ctcagaacct aatgcttgcg atgcttgcat
+     1981 cgacccatta taataaatac cataaagaaa actcctcaac tgtaaactca tatatttatc
+     2041 ctgtatttcc ttcggtaaag cctgaatccg agacaacatc tcagcaggca tttcccaggg
+     2101 ttgatagtta ggatgacgaa tcgaaaaatc agcggaaatt tcgagatttt caacaatatc
+     2161 taacaaagct tcctttaacc gacctctaac ctcaggggct aaatgatgga attgagaatt
+     2221 aagtaatgac ataatttttc aagatactca acgatattaa acttggccaa caacagaaga
+     2281 atttatctga tttaagtgag tagcagtagc cccaaaaatc gtaggcattg atgattcagg
+     2341 acgacataac aaagccttgg ctacctgaag catagcaatt ccggtattat taaagatttt
+     2401 ttgatactga accattgcca aaattgcaat aattaaagaa aaaccggcca actggactac
+     2461 ttgctttaag aaatcaggac gatattctaa gatttctggg aaagtttcta aataagctaa
+     2521 agttaaccca ccgatagatg gctgcagcaa ttctagggga gtagtggcta gtcgcagaga
+     2581 ctcttcaata ctgagagaat tactaatcac caagctaccc aaccaaattt gtagataact
+     2641 agcgattgcc attcccaaat caaatgctgg atctccccaa tcagaccttt cccaatcaat
+     2701 caaccggatc gcatttccat taatatcttc ccagtttcga ttcagaagaa tattattcag
+     2761 cttgatgtca ttgtgagtca gacaaatagg agaaatagtt tcactggctc gatgaactgc
+     2821 ttctcctaag ctatcatatc gttgataaag tgcaaaaaat ttcaatccat ccatcggagc
+     2881 cataccaaaa atttcaggac cgatcctttc caaactctct aataatagcg gagatacttt
+     2941 cggttttcca gcaaactctt ctttgacaaa aaattcccga taaatactct gattccaggt
+     3001 atcacggtga attgtcgcca aacaactgcc gatttgagta gcaacctgag ccggaaagag
+     3061 attctcttta gaataaaact ctgccaaatc ctgataatta tccagataag tagaaactaa
+     3121 aattgagtta tcagcatcgt ggagcagtaa ttctggcaga aaactacgcc aatagtcaat
+     3181 ttcaggaaag ttctctagaa atttggggat tcgccattcc ccaaaaaact cgcccaccgt
+     3241 ttccttttct aaattaataa attgttcttg tttaaccagt aactttcgac cctctggtaa
+     3301 agtcactaat aagttaaaat ttttagcctg aatctgctct actcccggat tttctaggca
+     3361 gcgatcacag attttttggt cgattaaata gtcataaaca ttttgagaac ttaacacaaa
+     3421 tttcataatt acaattattc tcaaatatcg ctgatttgtt tttattgatt ttaattataa
+     3481 ttgatgatag ccttattgcc aagctattca tctgcattaa aaaaacataa ttaacacaat
+     3541 tatgtctaaa cttcaactaa tcgcgccagt caacctacct gttagattgg tttagggcta
+     3601 attgcgatcg ctccatagac aaagaaaccg ggtttctcca cagggacaag gcggcttttg
+     3661 ctgccttcca tcaattcggt aagtatgtgg tacggtttcg ttatgattga tttttaaaag
+     3721 taccttttgc cgatcgatta tttatggcga gatttttgca tcgatcgatc ccaaaatcag
+     3781 aaaaaattgc ttttttagaa gattttttag cggcagatta tgaggcagcc ctaggcacaa
+     3841 tttatacatc tgtgagtaaa aaagcagtgg aaattatgcc tggtaaattt gctgagatta
+     3901 aggtaccaac tcttttagta tcagg
+//

@@ -1,0 +1,99 @@
+LOCUS       c_000000006232          1506 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000006232.
+ACCESSION   c_000000006232
+VERSION     c_000000006232
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 15:26:07
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1506
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..1506
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[351:510](+)"
+                     /cutoff="20000"
+                     /detection_rule="(mvd or mvnA)"
+                     /neighbourhood="10000"
+                     /product="microviridin"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      352..510
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(mvd or mvnA)"
+                     /neighbourhood="10000"
+                     /product="microviridin"
+                     /protocluster_number="1"
+     cand_cluster    1..1506
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(mvd or mvnA)"
+                     /kind="single"
+                     /product="microviridin"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1506
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="microviridin"
+                     /region_number="1"
+                     /rules="(mvd or mvnA)"
+                     /tool="antismash"
+     CDS             352..510
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     microviridin: mvnA"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     microviridin: mvd"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg564_1"
+                     /sec_met_domain="mvnA (E-value: 2.3e-27, bitscore: 82.1,
+                     seeds: 16, tool: rule-based-clusters)"
+                     /sec_met_domain="mvd (E-value: 7e-15, bitscore: 42.4,
+                     seeds: 55, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MNYPNTEQSKAIPFFARFLSVDQDEAPTPDSPPDSEPAPVWTWKW
+                     PSDWEDS"
+     CDS             complement(850..1506)
+                     /locus_tag="ctg564_2"
+                     /transl_table=11
+                     /translation="EFENRAVALAIAKGLSDSLKSHQLTEIKVNLIPPESQGSKLKSKD
+                     DLPFQSYQVQAELELNLPAIERLKKRAGRFVLATNDLEKQRLSSEDILKKYKGQQAPER
+                     GFSFLKYPGFFAHSVFLKSPHRIEVMAMLMGLCLLVYTIGQRQLRLSLKQQETGLKNPL
+                     GKLTDRPTLRWIFQNFQGIHLVRIQDNQKISNLTDERRNILRFFPKPCQEYYLLS"
+ORIGIN
+        1 aattattcct cccatcgaga gctattctga attgtaagtt ataactatta taatctcatt
+       61 tctctttgtg atcaagttga agattttcta gtttttgact gctataagta ttaatactca
+      121 ttgcataagt gagatgctcc ccagaagtta tcgcttttga attaggaatg gggagcggag
+      181 aacagggaag aaaattggcg tacctgatga ccctgaataa agctataagt gtcacccatg
+      241 ggagtgcggg taaggtgagt atttgacttg agtaagacgg caatatatgt tactatcaca
+      301 agggaatcgc agctatcttg aaaaagctgc tactcaaaac taggaatgac catgaattat
+      361 cccaataccg aacaaagtaa agcaatcccc ttctttgctc gttttttatc tgtggaccaa
+      421 gacgaggctc cgactcccga ttcccccccc gattctgaac cggctcccgt ttggacttgg
+      481 aaatggcctt ctgactggga agatagttaa ttaatttaaa gattgctttc agtaattcag
+      541 acagaaataa actaccgcca taggtcaagc aggagtaaga tttatggcgg ttttttgttg
+      601 tatcccacat tccgcaccct aagtgtcaca acgtctcaaa agaggaaggg gcgcgagtca
+      661 aaatacttat ctagaggagt gagttggcgg caagctgccg gcaactaagc cgaaaatttc
+      721 agagttcccc cggtcattct caataaacag tgcttgttga gaatggctgg gcaatcagac
+      781 ttaacatcta gcgtcgagat gttcgagtag tgcttaagtt ttgtcacccc ttgaagtcaa
+      841 tccatctggt caagataaga gataatattc ctggcaaggt ttgggaaaaa atctcaaaat
+      901 gttgcgcctc tcatccgtta agttactaat cttttgattg tcttgaatac ggacgagatg
+      961 aatcccttga aagttctgaa atatccagcg taatgttggt cggtcggtta acttacccaa
+     1021 cggattttta agtcccgtct cctgctgttt taaacttaaa cgaagttgtc tttggccaat
+     1081 agtataaacc agcaggcaca agcccatgag catggccatg acctcgattc tatggggaga
+     1141 tttaagaaag acactgtggg caaaaaagcc ggggtatttg agaaaagaaa atcctctttc
+     1201 tggagcttgt tgccctttat attttttgag tatatcctca ctgcttaatc gttgtttctc
+     1261 caaatcgtta gttgctaaaa cgaatcgtcc tgctcgtttc tttagcctct caatcgctgg
+     1321 caaattcaac tctaattcgg cttgaacttg atagctttga aagggcaaat cgtcttttga
+     1381 tttgagtttt gacccctggg actcaggcgg aatgagattg actttaatct ccgttaactg
+     1441 atgagatttt aaggagtcag ataatccttt ggctatcgcc aacgccaccg ctctattctc
+     1501 aaattc
+//

@@ -1,0 +1,23 @@
+#                                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+MaoC_dehydratas      PF01575.21   123 BGC0001935.1_ORF1:gid:trlA:pid:AWF83805.1:loc:0:480:strand:- -            159   5.5e-19   68.0   0.0   1   1   3.7e-23   7.2e-19   67.7   0.0    15   107    17   110     6   127 0.87 MaoC like domain
+DAHP_synth_2         PF01474.18   437 BGC0001935.1_ORF2:gid:trlB:pid:AWF83806.1:loc:529:1984:strand:- -            484    1e-185  617.5   0.0   1   1  6.3e-190  1.2e-185  617.3   0.0     3   437    16   448    14   448 0.99 Class-II DAHP synthetase family
+HpaB_N               PF11794.10   272 BGC0001935.1_ORF3:gid:trlC:pid:AWF83807.1:loc:2247:3840:strand:+ -            530   7.7e-82  275.1   0.0   1   1     1e-85   9.7e-82  274.8   0.0     1   271    16   280    16   281 0.97 4-hydroxyphenylacetate 3-hydroxylase N terminal
+HpaB                 PF03241.15   202 BGC0001935.1_ORF3:gid:trlC:pid:AWF83807.1:loc:2247:3840:strand:+ -            530   1.2e-59  200.9   0.0   1   1   1.7e-63   1.7e-59  200.4   0.0     1   201   287   487   287   491 0.97 4-hydroxyphenylacetate 3-hydroxylase C terminal
+Flavin_Reduct        PF01613.20   155 BGC0001935.1_ORF4:gid:trlD:pid:AWF83808.1:loc:3836:4394:strand:+ -            185   4.6e-22   78.9   0.1   1   1   2.9e-26   5.5e-22   78.6   0.1     2   154    31   181    30   182 0.84 Flavin reductase like domain
+FAD_binding_3        PF01494.21   349 BGC0001935.1_ORF5:gid:trlE:pid:AWF83809.1:loc:4438:5641:strand:+ -            400   5.4e-30  104.9   0.7   1   1   1.2e-33   7.9e-30  104.4   0.7     4   343     8   346     6   351 0.83 FAD binding domain
+AfsA                 PF03756.15   132 BGC0001935.1_ORF7:gid:trlG:pid:AWF83811.1:loc:6535:7297:strand:+ -            253   1.3e-16   60.8   2.5   1   1     1e-20     2e-16   60.3   2.5     3   130    91   222    90   224 0.87 A-factor biosynthesis hotdog domain
+PDT                  PF00800.20   183 BGC0001935.1_ORF8:gid:trlH:pid:AWF83812.1:loc:7298:8507:strand:+ -            402   2.8e-42  144.7   0.0   1   1   4.4e-46   4.2e-42  144.1   0.0     2   180    25   201    24   204 0.98 Prephenate dehydratase
+CM_2                 PF01817.23    75 BGC0001935.1_ORF8:gid:trlH:pid:AWF83812.1:loc:7298:8507:strand:+ -            402   3.1e-07   30.7   0.1   1   1   5.6e-11   5.3e-07   30.0   0.1     1    51   329   379   329   397 0.89 Chorismate mutase type II
+TetR_N               PF00440.25    47 BGC0001935.1_ORF9:gid:trlI:pid:AWF83813.1:loc:8482:9112:strand:+ -            209   9.4e-17   60.6   1.4   1   1   9.3e-21   1.8e-16   59.7   1.4     2    47    30    75    29    75 0.97 Bacterial regulatory proteins, tetR family
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0001935.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0001935.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0001935.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:44:52 2022
+# [ok]

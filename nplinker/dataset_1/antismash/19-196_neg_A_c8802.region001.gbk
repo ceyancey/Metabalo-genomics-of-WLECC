@@ -1,0 +1,374 @@
+LOCUS       c_000000008802          1871 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000008802.
+ACCESSION   c_000000008802
+VERSION     c_000000008802
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 16:03:04
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1871
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..1871
+                     /aStool="rule-based-clusters"
+                     /category="NRPS"
+                     /contig_edge="True"
+                     /core_location="[1093:1870](-)"
+                     /cutoff="0"
+                     /detection_rule="cds((PP-binding or NAD_binding_4) and
+                     (AMP-binding or A-OX))"
+                     /neighbourhood="20000"
+                     /product="NRPS-like"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      complement(1094..1870)
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="0"
+                     /detection_rule="cds((PP-binding or NAD_binding_4) and
+                     (AMP-binding or A-OX))"
+                     /neighbourhood="20000"
+                     /product="NRPS-like"
+                     /protocluster_number="1"
+     cand_cluster    1..1871
+                     /SMILES=""
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="cds((PP-binding or NAD_binding_4) and
+                     (AMP-binding or A-OX))"
+                     /kind="single"
+                     /product="NRPS-like"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1871
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="NRPS-like"
+                     /region_number="1"
+                     /rules="cds((PP-binding or NAD_binding_4) and (AMP-binding
+                     or A-OX))"
+                     /tool="antismash"
+     CDS_motif       complement(3..89)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_1_0006"
+                     /evalue="3.00E-16"
+                     /label="C5_LCL_267-296"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="365"
+                     /protein_start="336"
+                     /score="51.7"
+                     /tool="antismash"
+                     /translation="DIVIGSAIANRNRREIEGLIGFFVNTLAL"
+     aSDomain        complement(3..878)
+                     /aSDomain="Condensation"
+                     /aSTool="nrps_pks_domains"
+                     /database="nrpspksdomains.hmm"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksdomains_ctg1220_1_Condensation_LCL.1"
+                     /domain_subtype="Condensation_LCL"
+                     /evalue="7.20E-124"
+                     /label="ctg1220_1_Condensation_LCL.1"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="365"
+                     /protein_start="73"
+                     /score="404.4"
+                     /tool="antismash"
+                     /translation="GQLPLSFAQARLWFLYQLEGATGTYNMTGALSLSGSLQVEALKQA
+                     LRTIIQRHEPLRTSFQSVDGVPVQVINPYPVWELAMVDLTGKETEAEKLAYRESQTPFD
+                     LTQSPLLRVKLLKLQTEKHILLINMHHIISDGWSIGVFVRELSHLYRAFVAGKEPTLPT
+                     LPIQYADFAVWQRQWLQGKVLAAQLEYWKRQLADAPPLLELPTDRPRPAIQTFQGKTER
+                     FQLDGQLTQQLKALSQQSGCTLFMTLLAAFGVVLSRYSNQTDIVIGSAIANRNRREIEG
+                     LIGFFVNTLAL"
+     PFAM_domain     complement(3..878)
+                     /aSDomain="Condensation"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00668.22"
+                     /db_xref="GO:0003824"
+                     /description="Condensation domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1220_1_0002"
+                     /evalue="2.00E-86"
+                     /gene_ontologies="GO:0003824: catalytic activity"
+                     /label="ctg1220_1"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="365"
+                     /protein_start="73"
+                     /score="290.6"
+                     /tool="antismash"
+                     /translation="GQLPLSFAQARLWFLYQLEGATGTYNMTGALSLSGSLQVEALKQA
+                     LRTIIQRHEPLRTSFQSVDGVPVQVINPYPVWELAMVDLTGKETEAEKLAYRESQTPFD
+                     LTQSPLLRVKLLKLQTEKHILLINMHHIISDGWSIGVFVRELSHLYRAFVAGKEPTLPT
+                     LPIQYADFAVWQRQWLQGKVLAAQLEYWKRQLADAPPLLELPTDRPRPAIQTFQGKTER
+                     FQLDGQLTQQLKALSQQSGCTLFMTLLAAFGVVLSRYSNQTDIVIGSAIANRNRREIEG
+                     LIGFFVNTLAL"
+     CDS             complement(3..1097)
+                     /NRPS_PKS="Domain: Condensation_LCL (73-365). E-value:
+                     7.2e-124. Score: 404.4. Matches aSDomain:
+                     nrpspksdomains_ctg1220_1_Condensation_LCL.1"
+                     /NRPS_PKS="type: NRPS-like protein"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Condensation"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1127:condensation domain-containing protein (Score:
+                     347.7; E-value: 1.9e-105)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="ctg1220_1"
+                     /sec_met_domain="Condensation (E-value: 5.7e-89, bitscore:
+                     285.2, seeds: 42, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MKSIETFLSDLANQDIKLWMDGDRLRCNAPQGLLTPGIQTELKNR
+                     KAEIIQFLDQLGSEDQVSPRTILPIPRDGQLPLSFAQARLWFLYQLEGATGTYNMTGAL
+                     SLSGSLQVEALKQALRTIIQRHEPLRTSFQSVDGVPVQVINPYPVWELAMVDLTGKETE
+                     AEKLAYRESQTPFDLTQSPLLRVKLLKLQTEKHILLINMHHIISDGWSIGVFVRELSHL
+                     YRAFVAGKEPTLPTLPIQYADFAVWQRQWLQGKVLAAQLEYWKRQLADAPPLLELPTDR
+                     PRPAIQTFQGKTERFQLDGQLTQQLKALSQQSGCTLFMTLLAAFGVVLSRYSNQTDIVI
+                     GSAIANRNRREIEGLIGFFVNTLAL"
+     CDS_motif       complement(99..155)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_1_0005"
+                     /evalue="6.90E-04"
+                     /label="Cy4"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="333"
+                     /protein_start="314"
+                     /score="12.7"
+                     /tool="antismash"
+                     /translation="CTLFMTLLAAFGVVLSRYS"
+     CDS_motif       complement(342..380)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_1_0004"
+                     /evalue="3.40E-07"
+                     /label="C4_LCL_164-176"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="252"
+                     /protein_start="239"
+                     /score="22.5"
+                     /tool="antismash"
+                     /translation="QYADFAVWQRQWL"
+     CDS_motif       complement(429..494)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_1_0003"
+                     /evalue="2.80E-13"
+                     /label="C3_LCL_132-143"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="223"
+                     /protein_start="201"
+                     /score="42.1"
+                     /tool="antismash"
+                     /translation="MHHIISDGWSIGVFVRELSHLY"
+     CDS_motif       complement(699..809)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_1_0002"
+                     /evalue="7.90E-17"
+                     /label="C2_LCL_024-062"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="133"
+                     /protein_start="96"
+                     /score="53.6"
+                     /tool="antismash"
+                     /translation="TYNMTGALSLSGSLQVEALKQALRTIIQRHEPLRTSF"
+     CDS_motif       complement(834..863)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_1_0001"
+                     /evalue="4.50E-03"
+                     /label="C1_LCL_004-017"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="88"
+                     /protein_start="78"
+                     /score="9.7"
+                     /tool="antismash"
+                     /translation="SFAQARLWFL"
+     PFAM_domain     complement(933..1088)
+                     /aSDomain="TubC_N"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF18563.3"
+                     /description="TubC N-terminal docking domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1220_1_0001"
+                     /evalue="1.60E-21"
+                     /label="ctg1220_1"
+                     /locus_tag="ctg1220_1"
+                     /protein_end="55"
+                     /protein_start="3"
+                     /score="76.2"
+                     /tool="antismash"
+                     /translation="IETFLSDLANQDIKLWMDGDRLRCNAPQGLLTPGIQTELKNRKAE
+                     IIQFLDQ"
+     CDS             complement(1094..1870)
+                     /NRPS_PKS="Domain: PCP (167-233). E-value: 6.7e-27. Score:
+                     85.4. Matches aSDomain: nrpspksdomains_ctg1220_2_PCP.1"
+                     /NRPS_PKS="type: other"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     NRPS-like: AMP-binding"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     NRPS-like: PP-binding"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg1220_2"
+                     /sec_met_domain="AMP-binding (E-value: 9.6e-34, bitscore:
+                     103.6, seeds: 400, tool: rule-based-clusters)"
+                     /sec_met_domain="PP-binding (E-value: 3.2e-18, bitscore:
+                     53.3, seeds: 164, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="GLARGYLNRPDLTAEKFIEVNRLGRTERIYKTGDLATWQTDGNIE
+                     YLGRIDNQVKIRGFRIELGEIEAALLSHPQVREAVVLVNESDHTENRALVAYIVLNDPT
+                     CATQSLREFVKRQLPDYMIPAYWLVLEKLPLTSNGKIDRRALPLPNPELNRSIDYVAPK
+                     NPTQEAIAAIFGQVLKLEKVGINDNFFEIGGNSLQATQVISRLRESFALELPLRRLFEQ
+                     PTVADLALAVTDIHATLQKLQTPIDDLSGDRQEIEI"
+     aSDomain        complement(1172..1369)
+                     /aSDomain="PCP"
+                     /aSTool="nrps_pks_domains"
+                     /database="nrpspksdomains.hmm"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksdomains_ctg1220_2_PCP.1"
+                     /evalue="6.70E-27"
+                     /label="ctg1220_2_PCP.1"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="233"
+                     /protein_start="167"
+                     /score="85.4"
+                     /tool="antismash"
+                     /translation="EAIAAIFGQVLKLEKVGINDNFFEIGGNSLQATQVISRLRESFAL
+                     ELPLRRLFEQPTVADLALAVT"
+     PFAM_domain     complement(1184..1366)
+                     /aSDomain="PP-binding"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00550.27"
+                     /description="Phosphopantetheine attachment site"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1220_2_0005"
+                     /evalue="7.20E-15"
+                     /label="ctg1220_2"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="229"
+                     /protein_start="168"
+                     /score="55.1"
+                     /tool="antismash"
+                     /translation="AIAAIFGQVLKLEKVGINDNFFEIGGNSLQATQVISRLRESFALE
+                     LPLRRLFEQPTVADLA"
+     CDS_motif       complement(1430..1456)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_2_0003"
+                     /evalue="7.50E-03"
+                     /label="NRPS-A_a10"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="147"
+                     /protein_start="138"
+                     /score="8.6"
+                     /tool="antismash"
+                     /translation="GKIDRRALP"
+     PFAM_domain     complement(1451..1678)
+                     /aSDomain="AMP-binding_C"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF13193.8"
+                     /description="AMP-binding enzyme C-terminal domain"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1220_2_0004"
+                     /evalue="1.40E-15"
+                     /label="ctg1220_2"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="140"
+                     /protein_start="64"
+                     /score="58.1"
+                     /tool="antismash"
+                     /translation="EIEAALLSHPQVREAVVLVNESDHTENRALVAYIVLNDPTCATQS
+                     LREFVKRQLPDYMIPAYWLVLEKLPLTSNGK"
+     CDS_motif       complement(1670..1735)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_2_0002"
+                     /evalue="1.40E-13"
+                     /label="NRPS-A_a8"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="67"
+                     /protein_start="45"
+                     /score="42.5"
+                     /tool="antismash"
+                     /translation="YLGRIDNQVKIRGFRIELGEIE"
+     PFAM_domain     complement(1700..1867)
+                     /aSDomain="AMP-binding"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00501.30"
+                     /description="AMP-binding enzyme"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1220_2_0003"
+                     /evalue="1.90E-15"
+                     /label="ctg1220_2"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="57"
+                     /protein_start="1"
+                     /score="56.5"
+                     /tool="antismash"
+                     /translation="LARGYLNRPDLTAEKFIEVNRLGRTERIYKTGDLATWQTDGNIEY
+                     LGRIDNQVKIR"
+     CDS_motif       complement(1820..1870)
+                     /aSTool="nrps_pks_domains"
+                     /database="abmotifs"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksmotif_ctg1220_2_0001"
+                     /evalue="1.20E-09"
+                     /label="NRPS-A_a6"
+                     /locus_tag="ctg1220_2"
+                     /protein_end="17"
+                     /protein_start="0"
+                     /score="30.5"
+                     /tool="antismash"
+                     /translation="GLARGYLNRPDLTAEKF"
+ORIGIN
+        1 ctcaacgcca aagtgttaac aaaaaagcca attaacccct caatttctcg acgattacgg
+       61 ttggcgatcg ctgaaccaat gactatatca gtctggttac tataacggga tagaactacc
+      121 ccaaaagcgg ccaacaaggt cataaataaa gtacaacccg actgttgact taaggctttc
+      181 aattgttggg ttagttgacc atctagctga aatctttctg tcttgccttg aaaggtttgg
+      241 atcgcaggac gagggcgatc ggtgggcagt tccaagagag gaggcgcatc cgctaattgt
+      301 cgcttccaat attctaattg agccgctaaa accttaccct gtaaccactg tcgctgccaa
+      361 acagcaaaat ccgcatactg aattggtaaa gtcggtaaag ttggttcttt acccgccaca
+      421 aaagccctat agagatggga caattcacga acaaaaacac cgattgacca gccatcagaa
+      481 ataatatggt gcatattaat taataaaata tgcttttccg tctgtaattt gaggagtttt
+      541 accctcagta aaggactctg ggttaaatca aagggggttt gggattcccg ataggccaat
+      601 ttttctgctt ctgtctcctt tcctgtcaaa tcaaccatcg ctaattccca aacaggatag
+      661 ggattaatca cctgcactgg aaccccgtca accgattgga aactggtacg caatggctca
+      721 tggcgttgaa tgatagttct tagggcttgt ttgagggctt ctacttgcag agacccgctt
+      781 aaactcaagg cccctgtcat gttataggtt cctgttgccc cttctaattg atacaaaaac
+      841 cagagtcgtg cctgggcaaa ggagaggggt aattggccat cgcggggaat gggaagaatg
+      901 gttctagggc taacctgatc ctccgaaccc agttgatcaa gaaattgaat gatttctgct
+      961 ttacggtttt tcagttctgt ttgaatccct ggggttaata agccctgggg tgcattacaa
+     1021 cgcaggcgat cgccgtccat ccagagttta atatcttgat tggctaaatc tgacaaaaag
+     1081 gtttcaatgg atttcatatt tcgatctcct ggcgatcgcc tgataaatca tcaatagggg
+     1141 tttgtaattt ttgtaaagtg gcatgaatgt ccgttaccgc taaagccaaa tccgctacag
+     1201 tcggttgttc aaataggcga cgcagtggca actctagggc aaaactttct cgtaaccttg
+     1261 aaataacttg agtggcttgc aaagaattac caccaatctc aaagaagtta tcattaattc
+     1321 ccactttttc cagttttaaa acttgaccaa aaatagcggc gatcgcctcc tgggtaggat
+     1381 ttttgggagc cacatagtct atcgaacgat ttaactctgg attaggtaac ggtaaagccc
+     1441 gacgatcaat tttgccattg ctggttaacg gtaatttttc tagcacaagc caataagctg
+     1501 gaatcatata gtcgggaagc tgccgtttaa caaactcccg taatgattgt gttgcacaag
+     1561 tcggatcatt aagaacaata taagcaacca aagcccgatt ttcagtgtga tcgctttcat
+     1621 tcaccaaaac caccgcttct cgtacctgag gatgggaaag taaagccgct tcaatttctc
+     1681 ctaactcaat gcgaaaaccg cgaattttga cctgattatc aatccgtccc agatactcaa
+     1741 tattaccatc agtttgccat gtcgctaagt ctcctgtttt gtaaattcgt tcggttcttc
+     1801 ccaagcgatt aacttcaata aatttctcag ccgttaagtc aggacgattc aaatatcctc
+     1861 tcgctaaccc a
+//

@@ -1,0 +1,124 @@
+LOCUS       c_000000003084          1420 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000003084.
+ACCESSION   c_000000003084
+VERSION     c_000000003084
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 16:49:41
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1420
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             complement(1..1320)
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     cyanobactin: cyanobactin_synth"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Peptidase_S8"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1075:alkaline serine protease, subtilase family
+                     (Score: 104.5; E-value: 1.3e-31)"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg1627_1"
+                     /sec_met_domain="cyanobactin_synth (E-value: 2.2e-66,
+                     bitscore: 210.6, seeds: 40, tool: rule-based-clusters)"
+                     /sec_met_domain="Peptidase_S8 (E-value: 2.5e-26, bitscore:
+                     78.7, seeds: 43, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MPDLNAIPGMTALRSQTKGDPRIKIAVLDGPIDLDRACFQGANIT
+                     RLDPYWSEEFSIDPQHLQAFLDIEKSDKSDEEKEYLFKEAIPDENILHSLHLRFHANHI
+                     ISTICGQPDSPVEGIAPQATVINIPIAYSNEDFINPLNLSRAISTAIEQGVNIIHCAAC
+                     HPTQSGLAHEFIDKAIRQAQANNILVIAPGGNDKGECWCVPAVLENVLTVGAMKDTGEP
+                     FKFSNFGGKYATQGILAPGENILGAQPGTDDPIRKKGTSCAAPIVTGTAALLMSLQLEQ
+                     GLSPDAEAVRVALINSAIPCDPNEVEEPERCLLGKINIAGAYELLTGEKLQTVEADNNL
+                     SNNIIKSAVIPMTVTTSVIPSNTTEMATQGITITTPTAATIELVITPSNASENVSSTGL
+                     IQNNQTNKNIVFNSVVPSQRSNLVYVLGTLGYDFGTEARRD"
+     protocluster    1..1420
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[0:1320](-)"
+                     /cutoff="20000"
+                     /detection_rule="(cyanobactin_synth or TIGR03678)"
+                     /neighbourhood="10000"
+                     /product="cyanobactin"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      complement(1..1320)
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(cyanobactin_synth or TIGR03678)"
+                     /neighbourhood="10000"
+                     /product="cyanobactin"
+                     /protocluster_number="1"
+     cand_cluster    1..1420
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(cyanobactin_synth or TIGR03678)"
+                     /kind="single"
+                     /product="cyanobactin"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1420
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="cyanobactin"
+                     /region_number="1"
+                     /rules="(cyanobactin_synth or TIGR03678)"
+                     /tool="antismash"
+     PFAM_domain     complement(427..1254)
+                     /aSDomain="Peptidase_S8"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF00082.24"
+                     /db_xref="GO:0006508"
+                     /db_xref="GO:0008236"
+                     /description="Subtilase family"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg1627_1_0001"
+                     /evalue="1.90E-26"
+                     /gene_ontologies="GO:0006508: proteolysis"
+                     /gene_ontologies="GO:0008236: serine-type peptidase
+                     activity"
+                     /label="ctg1627_1"
+                     /locus_tag="ctg1627_1"
+                     /protein_end="298"
+                     /protein_start="22"
+                     /score="93.0"
+                     /tool="antismash"
+                     /translation="IKIAVLDGPIDLDRACFQGANITRLDPYWSEEFSIDPQHLQAFLD
+                     IEKSDKSDEEKEYLFKEAIPDENILHSLHLRFHANHIISTICGQPDSPVEGIAPQATVI
+                     NIPIAYSNEDFINPLNLSRAISTAIEQGVNIIHCAACHPTQSGLAHEFIDKAIRQAQAN
+                     NILVIAPGGNDKGECWCVPAVLENVLTVGAMKDTGEPFKFSNFGGKYATQGILAPGENI
+                     LGAQPGTDDPIRKKGTSCAAPIVTGTAALLMSLQLEQGLSPDAEAVRVALINSA"
+ORIGIN
+        1 gtcccgacgc gcttctgtgc cgaaatcata gcctaaagtt cctaacacat aaacgaggtt
+       61 tgaacgttga ctaggaacga cactattaaa gacaatattt ttatttgttt gattattttg
+      121 tattaatccg gttgaggaaa cattttctga agcattgcta ggagtgatca ccagttctat
+      181 tgtcgctgct gttggggtgg ttatagttat tccctgagtt gccatctcgg ttgtattaga
+      241 tgggataacc gaggttgtca ctgtcatcgg aattaccgcc gattttatga tattattcga
+      301 caaattgtta tccgcttcaa cagtttgtaa tttctctccc gtcagcagtt cataagcacc
+      361 cgcaatattg atttttccta ataaacagcg ttctggttct tctacttcat taggatcgca
+      421 ggggatggca ctattaatca aggcgactct tactgcttct gcatcgggag ataacccctg
+      481 ttctaattgt aaactcatta ataaagcggc tgttcctgtc acaatgggag cggcgcagct
+      541 agtgcctttt ttgcggatgg ggtcatcggt tccgggttga gcgcctaaaa tattctctcc
+      601 tggagcgaga atcccttgag ttgcatattt accaccaaaa ttactaaatt taaatggctc
+      661 gcctgtatct ttcattgctc ctactgtcag gacattttct aataccgcag gaacgcacca
+      721 acactctcct ttatcattac ctccgggggc aatcaccagg atattattag cttgagcttg
+      781 acgaattgct ttatcaataa attcgtgcgc taatccgctt tgagttgggt gacaagcggc
+      841 acaatggata atattaactc cctgttcaat agcggtacta attgcgcgag aaagattgag
+      901 aggattaata aaatcttcgt tgctataggc gatgggaata ttaattacag tagcctgagg
+      961 agcaatccct tctacgggtg aatctggctg gccacaaatg gtgctgataa tatggttagc
+     1021 atggaagcgc aaatgcaaac tgtggaggat gttttcatcg gggatcgctt ctttgaacag
+     1081 atactctttt tcttcatcac ttttgtcact tttttctata tctaaaaagg cttgtaagtg
+     1141 ttgcggatcg atggaaaatt cttcggacca atagggatca agtcgggtaa tatttgctcc
+     1201 ttgaaaacag gcgcggtcta aatcaattgg tccatcaaga acggcgattt tgatgcgggg
+     1261 atcgcctttt gtctgggagc gaagagcggt cattccgggg atagcattga gatcaggcat
+     1321 agtttttgca ggttttcaag aacagttata gactaaaagc tcgataacaa aaataggggc
+     1381 cttagggatg agttcaatga ggcccggggg gggcgggggg
+//

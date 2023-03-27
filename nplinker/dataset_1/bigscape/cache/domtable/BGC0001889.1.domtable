@@ -1,0 +1,19 @@
+#                                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                      -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ABC_membrane         PF00664.25   274 BGC0001889.1_ORF1:gid::pid:AAZ55180.1:loc:1:1738:strand:- -            578   2.2e-36  126.0   0.2   1   1   3.2e-40     3e-36  125.6   0.2     3   271    25   288    23   291 0.96 ABC transporter transmembrane region
+ABC_tran             PF00005.29   137 BGC0001889.1_ORF1:gid::pid:AAZ55180.1:loc:1:1738:strand:- -            578   1.2e-32  113.4   0.0   1   1   2.1e-36     2e-32  112.7   0.0     1   137   355   504   355   504 0.91 ABC transporter
+Transglut_core3      PF13471.8    117 BGC0001889.1_ORF2:gid::pid:AAZ55181.1:loc:1745:2162:strand:- -            138   3.5e-23   81.8   5.2   1   1   1.8e-27   3.5e-23   81.8   5.2     4   116    25   135    22   136 0.93 Transglutaminase-like superfamily
+PqqD                 PF05402.14    67 BGC0001889.1_ORF3:gid::pid:AAZ55182.1:loc:2158:2431:strand:- -             90   2.8e-15   56.4   0.1   1   1   1.7e-19   3.3e-15   56.2   0.1     2    66    23    87    22    88 0.96 Coenzyme PQQ synthesis protein D (PqqD)
+Asn_synthase         PF00733.23   355 BGC0001889.1_ORF4:gid::pid:AAZ55183.1:loc:2411:4244:strand:- -            610   7.7e-33  114.7   0.2   1   2   1.5e-22   2.9e-18   66.8   0.0     2   186   211   393   210   449 0.80 Asparagine synthase
+Asn_synthase         PF00733.23   355 BGC0001889.1_ORF4:gid::pid:AAZ55183.1:loc:2411:4244:strand:- -            610   7.7e-33  114.7   0.2   2   2   2.6e-16   5.1e-12   46.2   0.1   239   355   481   594   478   594 0.95 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0001889.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0001889.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0001889.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:47:29 2022
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+SNF2-rel_dom         PF00176.25   318 19-196_neg_A_c2147.region001_ORF1:gid::pid::loc:0:3477:strand:- -           1159   8.3e-50  169.6   0.0   1   1   8.1e-54   1.5e-49  168.7   0.0    44   263   949  1157   941  1159 0.93 SNF2-related domain
+DUF29                PF01724.18   138 19-196_neg_A_c2147.region001_ORF2:gid::pid::loc:3531:3999:strand:- -            155   3.6e-43  147.2   6.4   1   1   2.1e-47     4e-43  147.0   6.4     1   138     4   143     4   143 0.99 Domain of unknown function DUF29
+AMP-binding          PF00501.30   424 19-196_neg_A_c2147.region001_ORF3:gid::pid::loc:4576:8899:strand:- -           1440   2.3e-57  194.6   0.0   1   1     5e-61   3.2e-57  194.2   0.0    18   423   566   958   548   959 0.79 AMP-binding enzyme
+Thioesterase         PF00975.22   230 19-196_neg_A_c2147.region001_ORF3:gid::pid::loc:4576:8899:strand:- -           1440   4.1e-22   79.5   0.0   1   1   1.4e-25     9e-22   78.4   0.0     2   112  1179  1292  1178  1430 0.72 Thioesterase domain
+PP-binding           PF00550.27    67 19-196_neg_A_c2147.region001_ORF3:gid::pid::loc:4576:8899:strand:- -           1440   1.8e-13   50.6   0.0   1   1   8.1e-17   5.2e-13   49.2   0.0     2    65  1093  1154  1092  1156 0.94 Phosphopantetheine attachment site
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-196_neg_A_c2147.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-196_neg_A_c2147.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-196_neg_A_c2147.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:46:34 2022
+# [ok]

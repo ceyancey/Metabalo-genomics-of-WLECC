@@ -1,0 +1,17 @@
+#                                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                   accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                         -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TetR_N               PF00440.25    47 BGC0000850.1_ORF1:gid:sabR:pid:ACO51011.1:loc:0:648:strand:- -            215   2.6e-15   56.0   0.3   1   1   2.3e-19   4.5e-15   55.3   0.3     1    47    14    60    14    60 0.98 Bacterial regulatory proteins, tetR family
+AfsA                 PF03756.15   132 BGC0000850.1_ORF2:gid:sabA:pid:ACO51012.1:loc:737:1745:strand:+ -            335   4.6e-39  133.5   0.2   1   2     3e-25   5.8e-21   74.9   0.1     1   132    51   187    51   187 0.97 A-factor biosynthesis hotdog domain
+AfsA                 PF03756.15   132 BGC0000850.1_ORF2:gid:sabA:pid:ACO51012.1:loc:737:1745:strand:+ -            335   4.6e-39  133.5   0.2   2   2   2.3e-19   4.4e-15   55.9   0.0     2    96   219   307   218   325 0.87 A-factor biosynthesis hotdog domain
+TetR_N               PF00440.25    47 BGC0000850.1_ORF3:gid:sabS:pid:ACO51013.1:loc:1778:2474:strand:+ -            231   4.6e-17   61.6   0.9   1   1   4.8e-21   9.2e-17   60.7   0.9     1    47    27    73    27    73 0.98 Bacterial regulatory proteins, tetR family
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/BGC0000850.1.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/BGC0000850.1.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/BGC0000850.1.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:44:56 2022
+# [ok]

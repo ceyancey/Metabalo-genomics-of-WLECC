@@ -1,0 +1,16 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                     accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                           -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Condensation         PF00668.22   457 17-10_neg_A_c2030.region001_ORF1:gid::pid::loc:1:2131:strand:+ -            710  1.1e-111  373.8   0.1   1   1  2.2e-115  1.4e-111  373.5   0.1     3   457   105   549   103   549 0.96 Condensation domain
+AMP-binding          PF00501.30   424 17-10_neg_A_c2030.region001_ORF1:gid::pid::loc:1:2131:strand:+ -            710   7.4e-34  117.2   0.1   1   1   2.2e-37   1.4e-33  116.2   0.0     1   135   569   692   569   710 0.85 AMP-binding enzyme
+PP-binding           PF00550.27    67 17-10_neg_A_c2030.region001_ORF1:gid::pid::loc:1:2131:strand:+ -            710   8.3e-16   58.2   0.2   1   1   2.6e-18   1.6e-14   54.0   0.1     2    67    20    83    19    83 0.95 Phosphopantetheine attachment site
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/17-10_neg_A_c2030.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/17-10_neg_A_c2030.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/17-10_neg_A_c2030.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:40:17 2022
+# [ok]

@@ -1,0 +1,133 @@
+LOCUS       c_000000002124          1227 bp    DNA     linear   UNK 01-JAN-1980
+DEFINITION  c_000000002124.
+ACCESSION   c_000000002124
+VERSION     c_000000002124
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 6.1.1
+            Run date     :: 2022-09-01 15:58:37
+            NOTE: This is a single cluster extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1227
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     protocluster    1..1227
+                     /aStool="rule-based-clusters"
+                     /category="RiPP"
+                     /contig_edge="True"
+                     /core_location="[28:379](-)"
+                     /cutoff="20000"
+                     /detection_rule="(strepbact or Antimicrobial14 or
+                     Bacteriocin_IId or BacteriocIIc_cy or Bacteriocin_II or
+                     Bacteriocin_IIi or Lactococcin or Antimicrobial17 or
+                     Lactococcin_972 or Bacteriocin_IIc or LcnG-beta or Cloacin
+                     or Linocin_M18 or TIGR03651 or TIGR03693 or TIGR03601 or
+                     TIGR03795 or TIGR03975 or DUF692 or TIGR01193)"
+                     /neighbourhood="5000"
+                     /product="RiPP-like"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      complement(29..379)
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="20000"
+                     /detection_rule="(strepbact or Antimicrobial14 or
+                     Bacteriocin_IId or BacteriocIIc_cy or Bacteriocin_II or
+                     Bacteriocin_IIi or Lactococcin or Antimicrobial17 or
+                     Lactococcin_972 or Bacteriocin_IIc or LcnG-beta or Cloacin
+                     or Linocin_M18 or TIGR03651 or TIGR03693 or TIGR03601 or
+                     TIGR03795 or TIGR03975 or DUF692 or TIGR01193)"
+                     /neighbourhood="5000"
+                     /product="RiPP-like"
+                     /protocluster_number="1"
+     cand_cluster    1..1227
+                     /candidate_cluster_number="1"
+                     /contig_edge="True"
+                     /detection_rules="(strepbact or Antimicrobial14 or
+                     Bacteriocin_IId or BacteriocIIc_cy or Bacteriocin_II or
+                     Bacteriocin_IIi or Lactococcin or Antimicrobial17 or
+                     Lactococcin_972 or Bacteriocin_IIc or LcnG-beta or Cloacin
+                     or Linocin_M18 or TIGR03651 or TIGR03693 or TIGR03601 or
+                     TIGR03795 or TIGR03975 or DUF692 or TIGR01193)"
+                     /kind="single"
+                     /product="RiPP-like"
+                     /protoclusters="1"
+                     /tool="antismash"
+     region          1..1227
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="True"
+                     /product="RiPP-like"
+                     /region_number="1"
+                     /rules="(strepbact or Antimicrobial14 or Bacteriocin_IId or
+                     BacteriocIIc_cy or Bacteriocin_II or Bacteriocin_IIi or
+                     Lactococcin or Antimicrobial17 or Lactococcin_972 or
+                     Bacteriocin_IIc or LcnG-beta or Cloacin or Linocin_M18 or
+                     TIGR03651 or TIGR03693 or TIGR03601 or TIGR03795 or
+                     TIGR03975 or DUF692 or TIGR01193)"
+                     /tool="antismash"
+     CDS             complement(29..379)
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     RiPP-like: Bacteriocin_IIc"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="ctg417_1"
+                     /sec_met_domain="Bacteriocin_IIc (E-value: 6.1e-11,
+                     bitscore: 29.8, seeds: 35, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MANIKINELMEISSLTDDRIPSTMPIQTTSEISTIEQLSLDELES
+                     IYGGWTFTGGAIGGVAGGVAGGLYGGTIGALVGSVGGLPGALVGYAVGRTFGQTIGAAI
+                     GGSFGGYIGSLL"
+     CDS             complement(605..1225)
+                     /gene_functions="other (smcogs) SMCOG1206:transposase
+                     (Score: 182.9; E-value: 1.6e-55)"
+                     /gene_kind="other"
+                     /locus_tag="ctg417_2"
+                     /transl_table=11
+                     /translation="EKLMPQAQIVGDRFQVMKQVNNELDEARKEVKREAAKIKNKKNKE
+                     NILAGIAKSKYALLKNEGDLVEKERKKLEEVYKVSPKLGEMHKLKEEFREVFEKNTEGN
+                     EGLFALSDWLKKAMAYFPKSCQTIRRWIDEITAYFDNRTTQGTVEGINNKLKVIKRRGY
+                     GFRNFKNFSLRCLLNWHFASLFYMVSLEEPKIFIRKVMIKLEV"
+     PFAM_domain     complement(704..1222)
+                     /aSDomain="DDE_Tnp_ISL3"
+                     /aSTool="clusterhmmer"
+                     /database="34.0"
+                     /db_xref="PF01610.19"
+                     /description="Transposase"
+                     /detection="hmmscan"
+                     /domain_id="clusterhmmer_ctg417_2_0001"
+                     /evalue="7.90E-46"
+                     /label="ctg417_2"
+                     /locus_tag="ctg417_2"
+                     /protein_end="174"
+                     /protein_start="1"
+                     /score="156.8"
+                     /tool="antismash"
+                     /translation="KLMPQAQIVGDRFQVMKQVNNELDEARKEVKREAAKIKNKKNKEN
+                     ILAGIAKSKYALLKNEGDLVEKERKKLEEVYKVSPKLGEMHKLKEEFREVFEKNTEGNE
+                     GLFALSDWLKKAMAYFPKSCQTIRRWIDEITAYFDNRTTQGTVEGINNKLKVIKRRGYG
+                     FRNFKNFSLR"
+ORIGIN
+        1 attgctggga agatgaccaa agaaattgct agaggagaga gccaatgtaa ccaccgaacg
+       61 atccgccaat tgctgctccg atcgtttgtc cgaaggtgcg gcctacggca taacctacta
+      121 gagctccagg tagtcctccc acagaaccaa caagagcccc tatcgttccg ccatacaatc
+      181 cacctgctac tcctcctgca acacctccaa ttgcaccacc agtaaaagtc catcctccat
+      241 agatgctctc cagctcatct agagataact gttcgatagt agagatttca gaagttgtct
+      301 ggatgggcat cgttgaagga atgcggtcat cagtgagaga gcttatttcc attaattcgt
+      361 tgattttgat gttagccatg atttggtaac tccttgtttg ttgtttgaat aaatttattt
+      421 tggcttagat ttaatgtgat tgcaatacat taaagaaact caaatgactt atttatgtat
+      481 aaccagaaga tcagggctat ctcacctagg taatgattcg gtagtagtgg cgtagctctc
+      541 ttgcttacct ggtatgagtt gtgtaaaata ttttttaata aaaataattg gctcgaatca
+      601 gtctttaaac ctctagcttg atcatgactt ttctaataaa tatctttggt tcttccaaac
+      661 ttaccatgta aaataaacta gcaaaatgcc aatttaataa acatctaaga ctaaagtttt
+      721 taaagtttct aaatccatag cctctccttt taatcacctt cagtttatta ttaattcctt
+      781 caactgttcc ctgggttgtt cggttatcaa aataggcagt tatttcgtca atccaccgcc
+      841 gaattgtctg gcagctttta ggaaagtaag ccatcgcctt tttgagccaa tcactcaagg
+      901 caaataatcc ctcattcccc tccgtatttt tctcaaatac ttctctaaat tcctctttta
+      961 atttgtgcat ttccccaagt tttggagaca ctttatatac ttcttccaat tttttccttt
+     1021 ctttctctac taagtctcct tcattcttta ataaggcata tttgctcttg gctattcctg
+     1081 ctaagatatt ttctttattt ttcttatttt ttatcttggc tgcctctctt tttacctcct
+     1141 ttctggcttc atctagctcg ttatttactt gtttcattac ctggaatcta tctcctacta
+     1201 tttgcgcttg aggcattagt ttttctg
+//

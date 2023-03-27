@@ -1,0 +1,16 @@
+#                                                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+RRXRR                PF14239.8    174 18-22_neg_A_c98.region001_ORF1:gid::pid::loc:0:903:strand:- -            301   4.4e-57  192.8   0.5   1   1     3e-61   5.8e-57  192.4   0.5     1   174     4   184     4   184 0.97 RRXRR protein
+Radical_SAM          PF04055.23   167 18-22_neg_A_c98.region001_ORF2:gid::pid::loc:1120:2371:strand:- -            416   9.4e-22   78.2   0.0   1   1   1.8e-23   1.8e-19   70.9   0.0     2   143    13   146    12   154 0.93 Radical SAM superfamily
+Nif11                PF07862.13    48 18-22_neg_A_c98.region001_ORF4:gid::pid::loc:2654:3017:strand:- -            120   3.4e-15   56.2   0.3   1   1   1.8e-19   3.4e-15   56.2   0.3     1    48     1    48     1    48 0.99 Nif11 domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/18-22_neg_A_c98.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/18-22_neg_A_c98.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/18-22_neg_A_c98.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:47:24 2022
+# [ok]

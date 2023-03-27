@@ -1,0 +1,27 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                                                     accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----                                           -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+TubC_N               PF18563.3     52 19-338_neg_A_c3302.region001_ORF1:gid::pid::loc:0:921:strand:- -            307   9.8e-21   73.7   0.1   1   1   4.5e-24   2.2e-20   72.6   0.1     2    52     4    54     4    54 0.98 TubC N-terminal docking domain
+FAD_binding_3        PF01494.21   349 19-338_neg_A_c3302.region001_ORF1:gid::pid::loc:0:921:strand:- -            307   3.2e-07   30.0   0.0   1   1   9.5e-11   4.6e-07   29.5   0.0     2   212    65   279    64   297 0.78 FAD binding domain
+AMP-binding          PF00501.30   424 19-338_neg_A_c3302.region001_ORF2:gid::pid::loc:1166:5426:strand:- -           1419   8.9e-59  199.3   0.0   1   1   4.1e-62   1.6e-58  198.4   0.0     2   423   186   626   185   627 0.82 AMP-binding enzyme
+KR                   PF08659.12   180 19-338_neg_A_c3302.region001_ORF2:gid::pid::loc:1166:5426:strand:- -           1419   1.3e-40  139.3   0.0   1   1     1e-43   3.9e-40  137.7   0.0     1   180   992  1186   992  1186 0.93 KR domain
+PP-binding           PF00550.27    67 19-338_neg_A_c3302.region001_ORF2:gid::pid::loc:1166:5426:strand:- -           1419   4.2e-15   55.9   0.2   1   1   2.6e-18     1e-14   54.7   0.2     2    67  1325  1388  1324  1388 0.95 Phosphopantetheine attachment site
+adh_short            PF00106.27   195 19-338_neg_A_c3302.region001_ORF2:gid::pid::loc:1166:5426:strand:- -           1419   4.4e-12   46.0   0.1   1   1   1.1e-13   4.1e-10   39.5   0.1     4   159   995  1164   993  1169 0.76 short chain dehydrogenase
+adh_short_C2         PF13561.8    234 19-338_neg_A_c3302.region001_ORF2:gid::pid::loc:1166:5426:strand:- -           1419   1.9e-08   34.3   0.0   1   1   4.4e-11   1.7e-07   31.2   0.0    32   152  1048  1165  1039  1168 0.88 Enoyl-(Acyl carrier protein) reductase
+SWIM                 PF04434.19    40 19-338_neg_A_c3302.region001_ORF3:gid::pid::loc:6249:7035:strand:+ -            261   3.9e-06   26.5   0.0   1   1   4.1e-10   7.9e-06   25.5   0.0    14    39   118   140   100   141 0.88 SWIM zinc finger
+Topoisom_bac         PF01131.22   412 19-338_neg_A_c3302.region001_ORF4:gid::pid::loc:7258:9895:strand:- -            878    1e-127  426.7   0.0   1   1  2.8e-131  1.8e-127  426.0   0.0     2   411   140   572   139   573 0.94 DNA topoisomerase
+Toprim_C_rpt         PF13368.8     56 19-338_neg_A_c3302.region001_ORF4:gid::pid::loc:7258:9895:strand:- -            878   8.1e-65  214.8   9.1   1   3   3.1e-21     2e-17   63.0   0.1     1    52   663   722   663   724 0.91 Topoisomerase C-terminal repeat
+Toprim_C_rpt         PF13368.8     56 19-338_neg_A_c3302.region001_ORF4:gid::pid::loc:7258:9895:strand:- -            878   8.1e-65  214.8   9.1   2   3   2.4e-23   1.5e-19   69.8   0.1     1    54   725   782   725   784 0.92 Topoisomerase C-terminal repeat
+Toprim_C_rpt         PF13368.8     56 19-338_neg_A_c3302.region001_ORF4:gid::pid::loc:7258:9895:strand:- -            878   8.1e-65  214.8   9.1   3   3   2.9e-21   1.8e-17   63.1   0.6     1    52   797   848   797   852 0.95 Topoisomerase C-terminal repeat
+Toprim               PF01751.24   104 19-338_neg_A_c3302.region001_ORF4:gid::pid::loc:7258:9895:strand:- -            878   1.7e-28   98.9   0.0   1   1   6.3e-32     4e-28   97.8   0.0     1   104     3   125     3   125 0.98 Toprim domain
+DUF938               PF06080.14   204 19-338_neg_A_c3302.region001_ORF5:gid::pid::loc:10146:10818:strand:+ -            223   4.6e-79  265.0   0.0   1   1   2.7e-83   5.2e-79  264.9   0.0     1   203    24   221    24   222 0.98 Protein of unknown function (DUF938)
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      /data/dataset_1/bigscape/cache/fasta/19-338_neg_A_c3302.region001.fasta
+# Target file:     /usr/local/nplinker_lib/Pfam-A.hmm
+# Option settings: hmmscan --domtblout /data/dataset_1/bigscape/cache/domtable/19-338_neg_A_c3302.region001.domtable --cut_tc --cpu 0 /usr/local/nplinker_lib/Pfam-A.hmm /data/dataset_1/bigscape/cache/fasta/19-338_neg_A_c3302.region001.fasta 
+# Current dir:     /app
+# Date:            Tue Sep  6 20:41:18 2022
+# [ok]
